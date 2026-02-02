@@ -29,4 +29,4 @@
 
 [2. Segunda Forma Normal 2F](/Theory-and-concepts/Normalization/second-normal-form.md)
 
-[3. Tercera Forma Normal 3F]()
+[3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
