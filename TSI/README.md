@@ -31,8 +31,8 @@
 
 [3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
 
-[4. Relaciones](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
+[4. Relaciones entre Entidades](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
 
 [5. Cardinalidad](/Theory-and-concepts/Entity-Relationalship-Model/cardinality.md)
 
-[6. Errores Comunes del Modelo Entidad Relación]()
+[6. Errores Comunes del Modelo Entidad Relación](/Theory-and-concepts/Entity-Relationalship-Model/er-model-common-mistakes.md)
