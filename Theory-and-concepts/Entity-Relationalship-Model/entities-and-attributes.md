@@ -144,13 +144,3 @@ Una correcta definición de entidades y atributos:
 - simplifica la implementación en el modelo relacional.
 
 ---
-
-## Preparación para los siguientes temas
-
-Una vez definidas las entidades y atributos, el siguiente paso es:
-- identificar las relaciones entre las entidades,
-- definir la cardinalidad de dichas relaciones.
-
-Estos conceptos se desarrollarán en los siguientes temas.
-
----
