@@ -12,6 +12,6 @@ Teoría y conceptos
 
 [5. Introducción a la Normalización](/Theory-and-concepts/Normalization/normalization-introduction.md)
 
-[6. Introducción a Modelo Entidad Relación]()
+[6. Introducción al Modelo Entidad Relación](/Theory-and-concepts/Entity-Relationalship-Model/er-model-introduction.md)
 
 [7. Entidades y Atributos]()
