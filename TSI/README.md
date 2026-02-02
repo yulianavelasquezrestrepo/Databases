@@ -33,6 +33,6 @@
 
 [4. Relaciones](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
 
-[5. Cardinalidad]()
+[5. Cardinalidad](/Theory-and-concepts/Entity-Relationalship-Model/cardinality.md)
 
 [6. Errores Comunes del Modelo Entidad Relación]()
