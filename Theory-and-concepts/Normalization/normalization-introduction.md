@@ -116,6 +116,4 @@ Antes de estudiar cada forma normal en detalle, es importante comprender:
 - por qué no basta con una sola tabla,
 - y cómo el diseño impacta directamente la calidad de los datos.
 
-En los siguientes temas se abordará cada forma normal con ejemplos prácticos y explicaciones paso a paso.
-
 ---
