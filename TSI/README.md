@@ -30,3 +30,9 @@
 [2. Segunda Forma Normal 2F](/Theory-and-concepts/Normalization/second-normal-form.md)
 
 [3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
+
+[4. Relaciones]()
+
+[5. Cardinalidad]()
+
+[6. Errores Comunes del Modelo Entidad Relación]()
