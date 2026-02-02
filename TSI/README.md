@@ -1,7 +1,7 @@
 #Sesión 1
 ---
 
-Teoría y conceptos
+##Teoría y conceptos
 ---
 
 [1. Qué es una base de datos?](/Theory-and-concepts/Fundamentals/what-is-a-database.md)
