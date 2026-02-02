@@ -14,4 +14,6 @@ Teoría y conceptos
 
 [6. Introducción al Modelo Entidad Relación](/Theory-and-concepts/Entity-Relationalship-Model/er-model-introduction.md)
 
-[7. Entidades y Atributos]()
+[7. Entidades y Atributos](/Theory-and-concepts/Entity-Relationalship-Model/entities-and-attributes.md)
+
+#Sesión 2
