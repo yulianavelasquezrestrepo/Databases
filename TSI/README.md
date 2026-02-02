@@ -1,7 +1,7 @@
-#Sesión 1
+# Sesión 1
 ---
 
-Teoría y conceptos
+## Teoría y conceptos
 ---
 
 [1. Qué es una base de datos?](/Theory-and-concepts/Fundamentals/what-is-a-database.md)
@@ -18,5 +18,5 @@ Teoría y conceptos
 
 [7. Entidades y Atributos](/Theory-and-concepts/Entity-Relationalship-Model/entities-and-attributes.md)
 
-#Sesión 2
+# Sesión 2
 ---
