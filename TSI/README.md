@@ -44,4 +44,4 @@
 
 ## Teoría y Conceptos
 
-[1. Introducción al Modelo Relacional]()
+[1. Introducción al Modelo Relacional](/Theory-and-concepts/Relational-Model/relational-model-introduction.md)
