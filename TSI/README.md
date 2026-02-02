@@ -1,7 +1,7 @@
 # Sesión 1
 ---
 
-## Teoría y conceptos
+## Teoría y Conceptos
 
 
 [1. Qué es una base de datos?](/Theory-and-concepts/Fundamentals/what-is-a-database.md)
@@ -22,3 +22,9 @@
 
 # Sesión 2
 ---
+
+## Teoría y Conceptos
+
+[1. Primera Forma Normal 1F](/Theory-and-concepts/Normalization/first-normal-form.md)
+[2. Segunda Forma Normal 2F]()
+[3. Tercera Forma Normal 3F]()
