@@ -1,8 +1,8 @@
 #Sesión 1
 
-Teoria y conceptos
+Teoría y conceptos
 
-[1. Que es una base de datos?](Theory-and-concepts/Fundamentals/what-is-a-database.md)
+[1. Qué es una base de datos?](Theory-and-concepts/Fundamentals/what-is-a-database.md)
 
 [2. DBMS](Theory-and-concepts/Fundamentals/DBMS.md)
 
