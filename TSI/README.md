@@ -26,5 +26,7 @@
 ## Teoría y Conceptos
 
 [1. Primera Forma Normal 1F](/Theory-and-concepts/Normalization/first-normal-form.md)
+
 [2. Segunda Forma Normal 2F]()
+
 [3. Tercera Forma Normal 3F]()
