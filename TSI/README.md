@@ -6,4 +6,4 @@ Teoria y conceptos
 
 [2. DBMS](/Theroy-and-concepts/Fundamentals/DBMS.md)
 
-[3. DBMS vs Hojas de Cálculos]()
+[3. DBMS vs Hojas de Cálculos](Theory-and-concepts/Fundamentals/dbms-vs-spreadsheets.md)
