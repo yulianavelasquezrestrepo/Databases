@@ -111,15 +111,3 @@ El Modelo Entidad–Relación es una herramienta fundamental porque:
 Un MER bien construido facilita enormemente la implementación posterior en un DBMS.
 
 ---
-
-## Preparación para los siguientes temas
-
-Para profundizar en el uso del MER, es necesario estudiar:
-- qué es una entidad,
-- qué es un atributo,
-- cómo se representan las relaciones,
-- y cómo se define la cardinalidad.
-
-Estos conceptos se desarrollarán en los siguientes archivos.
-
----
