@@ -31,7 +31,7 @@
 
 [3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
 
-[4. Relaciones]()
+[4. Relaciones](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
 
 [5. Cardinalidad]()
 
