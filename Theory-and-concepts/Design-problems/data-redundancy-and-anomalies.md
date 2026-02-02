@@ -107,6 +107,4 @@ La **normalización** es el proceso que permite:
 - eliminar redundancia,
 - reducir anomalías.
 
-En los siguientes temas se mostrará cómo reorganizar los datos para resolver estos problemas de manera sistemática.
-
 ---
