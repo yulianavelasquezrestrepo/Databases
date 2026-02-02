@@ -7,3 +7,5 @@ Teoría y conceptos
 [2. DBMS](/Theory-and-concepts/Fundamentals/DBMS.md)
 
 [3. DBMS vs Hojas de Cálculos](/Theory-and-concepts/Fundamentals/dbms-vs-spreadsheets.md)
+
+[4. Redundancia de Datos y Anomalías](/Theory-and-concepts/Design-problems/data-redundancy-and-anomalies.md)
