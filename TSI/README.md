@@ -52,7 +52,7 @@
 
 [4. Llave Foránea](/Theory-and-concepts/Relational-Model/foreign-keys.md)
 
-[5. Restricciones de Integridad]()
+[5. Restricciones de Integridad](/Theory-and-concepts/Relational-Model/integrity-constraints.md)
 
 [6. Transformación de Entidades a Tablas]()
 
