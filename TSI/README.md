@@ -67,4 +67,4 @@
 
 ## MySQL
 
-[1. Conceptos e Instalación](/)
+[1. Conceptos e Instalación](/DBMS/MySQL)
