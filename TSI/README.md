@@ -48,9 +48,9 @@
 
 [2. Tablas, Filas y Columnas](/Theory-and-concepts/Relational-Model/tables-rows-columns.md)
 
-[3. Llave Primaria](/Theory-and-concepts/Relational-Model/foreign-keys.md)
+[3. Llave Primaria](/Theory-and-concepts/Relational-Model/primary-keys.md)
 
-[4. Llave Foránea]()
+[4. Llave Foránea](/Theory-and-concepts/Relational-Model/foreign-keys.md)
 
 [5. Restricciones de Integridad]()
 
