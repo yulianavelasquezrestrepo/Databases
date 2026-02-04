@@ -46,4 +46,16 @@
 
 [1. Introducción al Modelo Relacional](/Theory-and-concepts/Relational-Model/relational-model-introduction.md)
 
-[2. Tablas, Filas y Columnas](/Theory-and-concepts/Relational-Model/relational-model-introduction.md)
+[2. Tablas, Filas y Columnas](/Theory-and-concepts/Relational-Model/tables-rows-columns.md)
+
+[3. Llave Primaria]()
+
+[4. Llave Foránea]()
+
+[5. Restricciones de Integridad]()
+
+[6. Transformación de Entidades a Tablas]()
+
+[7. Transformación de Relaciones a Tablas]()
+
+[8. Transformación de Relaciones Muchos a Muchos]()
