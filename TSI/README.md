@@ -45,3 +45,5 @@
 ## Teoría y Conceptos
 
 [1. Introducción al Modelo Relacional](/Theory-and-concepts/Relational-Model/relational-model-introduction.md)
+
+[2. Tablas, Filas y Columnas](/Theory-and-concepts/Relational-Model/relational-model-introduction.md)
