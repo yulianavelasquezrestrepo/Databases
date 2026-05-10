@@ -47,13 +47,17 @@ Permite crear una nueva base de datos.
 
 ## Sintaxis
 
+```sql
 CREATE DATABASE nombre_base_datos;
+```
 
 ---
 
 ## Ejemplo
 
+```sql
 CREATE DATABASE university_db;
+```
 
 # Buenas prácticas
 
@@ -65,15 +69,18 @@ Se recomienda:
 
 ## Ejemplos Correctos
 
+```sql
 CREATE DATABASE library_db;
 
 CREATE DATABASE sales_system;
+```
 
 ## Ejemplos Incorrectos
-
+```sql
 CREATE DATABASE Base de Datos;
 
 CREATE DATABASE 123test;
+```
 
 ---
 
@@ -85,11 +92,15 @@ Selecciona la base de datos con la que se trabajará.
 
 ## Sintaxis
 
+```sql
 USE nombre_base_datos;
+```
 
 ## Ejemplo
 
+```sql
 USE university_db;
+```
 
 ---
 
@@ -101,10 +112,12 @@ Permite crear tablas dentro de una base de datos.
 
 ## Sintaxis Básica
 
+```sql
 CREATE TABLE nombre_tabla (
     columna tipo_dato,
     columna tipo_dato
 );
+```
 
 ## Tipos de datos básicos
 
@@ -118,12 +131,14 @@ CREATE TABLE nombre_tabla (
 
 ## Ejemplo Simple de tabla
 
+```sql
 CREATE TABLE students (
     student_id INT,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     age INT
 );
+```
 
 # Clave primaria (PRIMARY KEY)
 
@@ -137,11 +152,13 @@ Es un atributo que:
 
 ## Ejemplo
 
+```sql
 CREATE TABLE students (
     student_id INT PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50)
 );
+```
 
 # Restricción NOT NULL
 
@@ -151,10 +168,12 @@ Obliga a que una columna tenga valor.
 
 ## Ejemplo
 
+```sql
 CREATE TABLE teachers (
     teacher_id INT PRIMARY KEY,
     teacher_name VARCHAR(100) NOT NULL
 );
+```
 
 # Clave foránea (FOREIGN KEY)
 
@@ -171,13 +190,16 @@ Es una columna que:
 
 Tabla departamentos:
 
+```sql
 CREATE TABLE departments (
     department_id INT PRIMARY KEY,
     department_name VARCHAR(100)
 );
+```
 
 Tabla Empleados:
 
+```sql
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
     employee_name VARCHAR(100),
@@ -185,6 +207,7 @@ CREATE TABLE employees (
     FOREIGN KEY (employee_department_id)
         REFERENCES departments(department_id)
 );
+```
 
 ---
 
@@ -196,11 +219,15 @@ Elimina completamente una base de datos.
 
 ## Sintaxis
 
+```sql
 DROP DATABASE nombre_db;
+```
 
 ## Ejemplo
 
+```sql
 DROP DATABASE company_db;
+```
 
 ---
 
@@ -212,7 +239,9 @@ Elimina una tabla.
 
 ## Ejemplo
 
+```sql
 DROP TABLE employees;
+```
 
 ## Recomendaciones para trabajar en clase
 
