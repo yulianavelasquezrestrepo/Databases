@@ -47,7 +47,6 @@ Permite crear una nueva base de datos.
 
 ## Sintaxis
 
-```sql
 CREATE DATABASE nombre_base_datos;
 
 ---
