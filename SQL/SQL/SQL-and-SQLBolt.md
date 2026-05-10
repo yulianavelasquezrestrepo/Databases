@@ -161,7 +161,7 @@ WHERE students_city = 'Manizales';
 ```sql
 SELECT students_name, students_age
 FROM Students
-WHERE age > 20;
+WHERE students_age > 20;
 ```
 
 ---
@@ -289,8 +289,8 @@ LIMIT 2;
 Los alias permiten cambiar temporalmente el nombre mostrado.
 
 ```sql
-SELECT name AS student_name,
-       city AS student_city
+SELECT student_name AS studentName,
+       student_city AS studentCity
 FROM Students;
 ```
 
