@@ -134,9 +134,9 @@ CREATE TABLE nombre_tabla (
 ```sql
 CREATE TABLE students (
     student_id INT,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    age INT
+    student_first_name VARCHAR(50),
+    student_last_name VARCHAR(50),
+    student_age INT
 );
 ```
 
@@ -155,8 +155,8 @@ Es un atributo que:
 ```sql
 CREATE TABLE students (
     student_id INT PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50)
+    student_first_name VARCHAR(50),
+    student_last_name VARCHAR(50)
 );
 ```
 
