@@ -67,8 +67,6 @@
 
 ## Teoría y Práctica
 
-## MySQL
-
 [1. Conceptos e Instalación](/DBMS/MySQL)
 
 [2. Introduccióna DDL en MySQL](/SQL/DDL/Introduction-DDL-MySQL.md)
@@ -77,7 +75,5 @@
 ---
 
 ## Teoría y Práctica
-
-## Consultas SQL y SQLBolt
 
 [1. Introducción a Consultas SQL y SQLBolt](/SQL/SQL/SQL-and-SQLBolt.md)
