@@ -1,4 +1,4 @@
-# Sesión 5 — Introducción a Consultas SQL y SQLBolt
+# Introducción a Consultas SQL y SQLBolt
 
 ## Conceptos fundamentales de SQL
 
