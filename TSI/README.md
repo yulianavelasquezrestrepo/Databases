@@ -69,4 +69,4 @@
 
 [1. Conceptos e Instalación](/DBMS/MySQL)
 
-[2. Introduccióna DDL en MySQL](/SQL/DDL)
+[2. Introduccióna DDL en MySQL](/SQL/DDL/Introducción-DDL-MySQL.md)
