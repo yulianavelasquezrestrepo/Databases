@@ -68,4 +68,5 @@
 ## MySQL
 
 [1. Conceptos e Instalación](/DBMS/MySQL)
+
 [2. Introduccióna DDL en MySQL](/SQL/DDL)
