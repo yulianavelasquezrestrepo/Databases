@@ -66,13 +66,13 @@ Se recomienda:
 ## Ejemplos Correctos
 
 CREATE DATABASE library_db;
----
+
 CREATE DATABASE sales_system;
 
 ## Ejemplos Incorrectos
 
 CREATE DATABASE Base de Datos;
----
+
 CREATE DATABASE 123test;
 
 ---
