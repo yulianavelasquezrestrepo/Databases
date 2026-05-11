@@ -65,7 +65,7 @@
 # Sesión 4
 ---
 
-## Teoría y Práctica
+## MySQL y DDL
 
 [1. Conceptos e Instalación](/DBMS/MySQL)
 
@@ -74,6 +74,6 @@
 # Sesión 5
 ---
 
-## Teoría y Práctica
+## SQL
 
 [1. Introducción a Consultas SQL y SQLBolt](/SQL/SQL/SQL-and-SQLBolt.md)
