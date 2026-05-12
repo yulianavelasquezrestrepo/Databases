@@ -82,12 +82,12 @@ Ejemplo:
 
 ## Tabla: Courses
 
-| id | course_name      | student_id |
-|----|------------------|------------|
-| 1  | Databases        | 1          |
-| 2  | Programming      | 1          |
-| 3  | Networks         | 2          |
-| 4  | Operating Systems| 3          |
+| id | course_name       | student_id |
+|----|-------------------|------------|
+| 1  | Databases         | 1          |
+| 2  | Programming       | 1          |
+| 3  | Networks          | 2          |
+| 4  | Operating Systems | 3          |
 
 ---
 
@@ -111,7 +111,7 @@ El INNER JOIN retorna únicamente los registros que tienen coincidencia en ambas
 Sintaxis:
 
 ```sql
-SELECT columnas
+SELECT registros columnas
 FROM tabla1
 INNER JOIN tabla2
 ON condicion;
@@ -122,7 +122,7 @@ ON condicion;
 # Primer ejemplo de INNER JOIN
 
 ```sql
-SELECT Students.students_name,
+SELECT ALL Students.students_name,
        Courses.courses_name
 FROM Students
 INNER JOIN Courses
@@ -134,11 +134,11 @@ ON Students.students_id = Courses.courses_student_id;
 # Resultado esperado
 
 | name   | course_name       |
-|--------|------------------|
-| Sofía  | Databases        |
-| Sofía  | Programming      |
-| Carlos | Networks         |
-| Ana    | Operating Systems|
+|--------|-------------------|
+| Sofía  | Databases         |
+| Sofía  | Programming       |
+| Carlos | Networks          |
+| Ana    | Operating Systems |
 
 ---
 
@@ -162,7 +162,7 @@ Los alias simplifican consultas largas.
 Ejemplo:
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        c.courses_name
 FROM Students s
 INNER JOIN Courses c
@@ -174,12 +174,12 @@ ON s.students_id = c.courses_student_id;
 # JOIN con múltiples columnas
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        s.students_city,
        c.courses_name
 FROM Students s
 INNER JOIN Courses c
-ON s.students_id = c.courses_student_id;
+ON s.id = c.student_id;
 ```
 
 ---
@@ -191,7 +191,7 @@ Es posible usar WHERE junto con JOIN.
 Ejemplo:
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        c.courses_name
 FROM Students s
 INNER JOIN Courses c
@@ -204,7 +204,7 @@ WHERE s.students_city = 'Manizales';
 # Ordenamiento después de un JOIN
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        c.courses_name
 FROM Students s
 INNER JOIN Courses c
@@ -252,7 +252,7 @@ Si no existe coincidencia:
 ## Consulta
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        c.courses_name
 FROM Students s
 LEFT JOIN Courses c
@@ -272,15 +272,100 @@ ON s.students_id = c.courses_student_id;
 
 ---
 
-# Diferencia entre INNER JOIN y LEFT JOIN
+# RIGHT JOIN
+
+El RIGHT JOIN retorna:
+
+- Todos los registros de la tabla derecha
+- Y las coincidencias de la tabla izquierda
+
+Si no existe coincidencia:
+
+- Se muestran valores NULL en las columnas de la tabla izquierda
+
+---
+
+# Ejemplo de RIGHT JOIN
+
+## Tabla Students
+
+| id | name   |
+|----|--------|
+| 1  | Sofía  |
+| 2  | Carlos |
+
+---
+
+## Tabla Courses
+
+| id | course_name | student_id |
+|----|-------------|------------|
+| 1  | Databases   | 1          |
+| 2  | Programming | 2          |
+| 3  | Networks    | 5          |
+
+---
+
+## Consulta
+
+```sql
+SELECT s.students_name,
+       c.courses_name
+FROM Students s
+RIGHT JOIN Courses c
+ON s.students_id = c.courses_student_id;
+```
+
+---
+
+# Resultado esperado
+
+| name   | course_name |
+|--------|-------------|
+| Sofía  | Databases   |
+| Carlos | Programming |
+| NULL   | Networks    |
+
+---
+
+# Explicación del RIGHT JOIN
+
+El curso "Networks" tiene un `courses_student_id = 5`.
+
+Sin embargo:
+
+- No existe un estudiante con id 5 en la tabla Students.
+
+Por esta razón:
+
+- El RIGHT JOIN conserva el registro de la tabla derecha (Courses)
+- Y muestra NULL en las columnas de Students
+
+---
+
+# Diferencia entre INNER JOIN, LEFT JOIN y RIGHT JOIN
 
 ## INNER JOIN
 
-Retorna únicamente coincidencias.
+Muestra únicamente coincidencias entre ambas tablas.
 
 ## LEFT JOIN
 
-Retorna todos los registros de la tabla izquierda aunque no tengan coincidencia.
+Muestra todos los registros de la tabla izquierda aunque no tengan coincidencia.
+
+## RIGHT JOIN
+
+Muestra todos los registros de la tabla derecha aunque no tengan coincidencia.
+
+---
+
+# Comparación visual de JOINs
+
+| Tipo de JOIN | Resultado |
+|---|---|
+| INNER JOIN | Solo coincidencias |
+| LEFT JOIN | Todos los registros de la izquierda |
+| RIGHT JOIN | Todos los registros de la derecha |
 
 ---
 
@@ -303,9 +388,18 @@ Por eso el diseño correcto del modelo relacional es fundamental.
 Incorrecto:
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 INNER JOIN Courses;
+```
+
+Correcto:
+
+```sql
+SELECT ALL *
+FROM Students
+INNER JOIN Courses
+ON Students.id = Courses.student_id;
 ```
 
 ---
@@ -331,7 +425,7 @@ ON Students.students_id = Courses.courses_student_id
 Incorrecto:
 
 ```sql
-SELECT students_id
+SELECT ALL students_id
 FROM Students s
 INNER JOIN Courses c
 ON s.students_id = c.courses_student_id;
@@ -355,7 +449,7 @@ ON s.students_id = c.courses_student_id;
 Mostrar estudiantes y sus cursos.
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        c.courses_name
 FROM Students s
 INNER JOIN Courses c
@@ -369,7 +463,7 @@ ON s.students_id = c.courses_student_id;
 Mostrar estudiantes de Manizales y sus cursos.
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        s.students_city,
        c.courses_name
 FROM Students s
@@ -385,10 +479,24 @@ WHERE s.students_city = 'Manizales';
 Mostrar todos los estudiantes incluso si no tienen cursos.
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.name,
        c.courses_name
 FROM Students s
 LEFT JOIN Courses c
+ON s.students_id = c.courses_student_id;
+```
+
+---
+
+## Consulta 4
+
+Mostrar todos los cursos incluso si no tienen estudiante asociado.
+
+```sql
+SELECT ALL s.students_name,
+       c.courses_name
+FROM Students s
+RIGHT JOIN Courses c
 ON s.students_id = c.courses_student_id;
 ```
 
@@ -418,6 +526,7 @@ Realizar consultas:
 - SELECT básicos
 - INNER JOIN
 - LEFT JOIN
+- RIGHT JOIN
 - WHERE
 - ORDER BY
 
@@ -441,7 +550,8 @@ Explicar en papel:
 
 - Qué hace INNER JOIN
 - Qué hace LEFT JOIN
-- Diferencias entre ambos
+- Qué hace RIGHT JOIN
+- Diferencias entre ellos
 
 ---
 
@@ -455,6 +565,19 @@ Explicar en papel:
 
 ---
 
+# Recomendación práctica
+
+En muchos proyectos reales:
+
+- LEFT JOIN es más utilizado que RIGHT JOIN
+
+Sin embargo:
+
+- Es importante comprender ambos
+- Porque representan la misma lógica desde perspectivas opuestas
+
+---
+
 # Resumen de la sesión
 
 En esta sesión se trabajó:
@@ -463,6 +586,7 @@ En esta sesión se trabajó:
 - Claves foráneas
 - INNER JOIN
 - LEFT JOIN
+- RIGHT JOIN
 - Filtrado y ordenamiento con JOINs
 - Uso de alias
 - Interpretación de resultados
