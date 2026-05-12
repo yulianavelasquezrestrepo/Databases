@@ -84,3 +84,10 @@
 ## Relación entre Tablas y JOINs
 
 [1. Relaciones entre tablas y JOINs](/SQL/Relationships-Tables-JOINs/Relationships-between-Tables-and-JOINs.md)
+
+# Sesión 7
+---
+
+## Funciones Agregadas GROUP BY y HAVING en SQL
+
+[1. Funciones Agregadas GROUP BY y HAVING](/SQL/Aggregate-Functions/Aggregate-Functions-GROUP%20BY-and-HAVING.md)
