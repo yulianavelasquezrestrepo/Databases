@@ -72,7 +72,7 @@ Ejemplo:
 
 ## Tabla: Students
 
-| id | name   | city      |
+| students_id | students_name   | students_city      |
 |----|--------|-----------|
 | 1  | Sofía  | Manizales |
 | 2  | Carlos | Pereira   |
@@ -82,7 +82,7 @@ Ejemplo:
 
 ## Tabla: Courses
 
-| id | course_name       | student_id |
+| courses_id | courses_name       | courses_student_id |
 |----|-------------------|------------|
 | 1  | Databases         | 1          |
 | 2  | Programming       | 1          |
@@ -133,7 +133,7 @@ ON Students.students_id = Courses.courses_student_id;
 
 # Resultado esperado
 
-| name   | course_name       |
+| students_name   | courses_name       |
 |--------|-------------------|
 | Sofía  | Databases         |
 | Sofía  | Programming       |
@@ -179,7 +179,7 @@ SELECT ALL s.students_name,
        c.courses_name
 FROM Students s
 INNER JOIN Courses c
-ON s.id = c.student_id;
+ON s.students_id = c.courses_student_id;
 ```
 
 ---
@@ -231,7 +231,7 @@ Si no existe coincidencia:
 
 ## Nueva tabla Students
 
-| id | name   |
+| students_id | students_name   |
 |----|--------|
 | 1  | Sofía  |
 | 2  | Carlos |
@@ -242,7 +242,7 @@ Si no existe coincidencia:
 
 ## Tabla Courses
 
-| id | course_name | student_id |
+| courses_id | courses_name | courses_student_id |
 |----|-------------|------------|
 | 1  | Databases   | 1          |
 | 2  | Programming | 2          |
@@ -263,7 +263,7 @@ ON s.students_id = c.courses_student_id;
 
 # Resultado esperado
 
-| name   | course_name |
+| students_name   | courses_name |
 |--------|-------------|
 | Sofía  | Databases   |
 | Carlos | Programming |
@@ -289,7 +289,7 @@ Si no existe coincidencia:
 
 ## Tabla Students
 
-| id | name   |
+| students_id | students_name   |
 |----|--------|
 | 1  | Sofía  |
 | 2  | Carlos |
@@ -298,7 +298,7 @@ Si no existe coincidencia:
 
 ## Tabla Courses
 
-| id | course_name | student_id |
+| courses_id | courses_name | courses_student_id |
 |----|-------------|------------|
 | 1  | Databases   | 1          |
 | 2  | Programming | 2          |
@@ -309,7 +309,7 @@ Si no existe coincidencia:
 ## Consulta
 
 ```sql
-SELECT s.students_name,
+SELECT ALL s.students_name,
        c.courses_name
 FROM Students s
 RIGHT JOIN Courses c
@@ -320,7 +320,7 @@ ON s.students_id = c.courses_student_id;
 
 # Resultado esperado
 
-| name   | course_name |
+| students_name   | courses_name |
 |--------|-------------|
 | Sofía  | Databases   |
 | Carlos | Programming |
