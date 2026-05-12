@@ -77,3 +77,10 @@
 ## SQL
 
 [1. Introducción a Consultas SQL y SQLBolt](/SQL/SQL/SQL-and-SQLBolt.md)
+
+# Sesión 6
+---
+
+## Relación entre Tablas y JOINs
+
+[1. Relaciones entre tablas y JOINs](/SQL/Relationships-Tables-JOINs/Relationships-between-Tables-and-JOINs.md)
