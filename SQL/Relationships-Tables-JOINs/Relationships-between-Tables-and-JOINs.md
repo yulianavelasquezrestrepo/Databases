@@ -1,4 +1,4 @@
-# Sesión 6 — Relaciones entre Tablas y JOINs
+# Relaciones entre Tablas y JOINs
 
 # Introducción
 
