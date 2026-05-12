@@ -37,7 +37,7 @@ Ejemplos:
 - ALTER
 - DROP
 
-Ejemplo:
+Ejemplo CREATE:
 
 ```sql
 CREATE TABLE Students (
@@ -46,6 +46,47 @@ CREATE TABLE Students (
     students_age INT,
     students_city VARCHAR(100)
 );
+```
+
+Ejemplo ALTER (Para añadir una columna a una tabla):
+
+```sql
+ALTER TABLE Students
+ADD students_email VARCHAR(255);
+```
+
+Ejemplo ALTER (Para eliminar una columna de una tabla):
+
+```sql
+ALTER TABLE Students
+DROP COLUMN students_email;
+```
+
+Ejemplo ALTER (Para cambiar el nombre de una columna de una tabla):
+
+```sql
+ALTER TABLE Students
+RENAME COLUMN students_email to students_correo;
+```
+
+Ejemplo ALTER (Para cambiar el tipo de dato de una columna de una tabla):
+
+```sql
+ALTER TABLE Students
+MODIFY students_email VARCHAR(100) NOT NULL;
+```
+
+Ejemplo ALTER (Para cambiar el nombre de una tabla):
+
+```sql
+ALTER TABLE Students
+RENAME TO Student;
+```
+
+Ejemplo DROP:
+
+```sql
+DROP TABLE IF EXISTS Students;
 ```
 
 ---
@@ -60,13 +101,27 @@ Ejemplos:
 - UPDATE
 - DELETE
 
-Ejemplo:
+Ejemplo INSERT:
 
 ```sql
 INSERT INTO Students (students_id, students_name, students_age, students_city)
 VALUES (1, 'Sofía', 20, 'Manizales');
 ```
 
+Ejemplo UPDATE:
+
+```sql
+UPDATE Students
+SET students_name = 'María Sofía'
+WHERE students_id = 1;
+```
+
+Ejemplo DELETE:
+
+```sql
+DELETE FROM Students 
+WHERE students_id = 4;
+```
 ---
 
 ## DQL (Data Query Language)
