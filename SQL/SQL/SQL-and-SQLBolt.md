@@ -37,7 +37,7 @@ Ejemplos:
 - ALTER
 - DROP
 
-Ejemplo CREATE:
+## Ejemplo CREATE:
 
 ```sql
 CREATE TABLE Students (
