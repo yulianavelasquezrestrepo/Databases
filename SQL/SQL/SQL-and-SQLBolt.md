@@ -135,7 +135,7 @@ Principal instrucción:
 Ejemplo:
 
 ```sql
-SELECT * FROM Students;
+SELECT ALL * FROM Students;
 ```
 
 ---
@@ -147,7 +147,7 @@ La instrucción SELECT permite consultar información almacenada en una tabla.
 Sintaxis básica:
 
 ```sql
-SELECT columnas
+SELECT registros columnas
 FROM tabla;
 ```
 
@@ -156,7 +156,7 @@ FROM tabla;
 ## Consultar todas las columnas
 
 ```sql
-SELECT * FROM Students;
+SELECT ALL * FROM Students;
 ```
 
 El símbolo `*` representa todas las columnas.
@@ -166,7 +166,7 @@ El símbolo `*` representa todas las columnas.
 ## Consultar columnas específicas
 
 ```sql
-SELECT students_name, students_city
+SELECT ALL students_name, students_city
 FROM Students;
 ```
 
@@ -178,7 +178,7 @@ Durante la sesión se trabajará con tablas sencillas.
 
 ## Tabla: Students
 
-| id | name   | city      | age |
+| students_id | students_name   | students_city      | students_age |
 |----|--------|-----------|-----|
 | 1  | Sofía  | Manizales | 20  |
 | 2  | Carlos | Pereira   | 22  |
@@ -194,7 +194,7 @@ La cláusula WHERE permite filtrar registros.
 Sintaxis:
 
 ```sql
-SELECT columnas
+SELECT registros columnas
 FROM tabla
 WHERE condicion;
 ```
@@ -204,7 +204,7 @@ WHERE condicion;
 ## Ejemplo 1
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 WHERE students_city = 'Manizales';
 ```
@@ -214,7 +214,7 @@ WHERE students_city = 'Manizales';
 ## Ejemplo 2
 
 ```sql
-SELECT students_name, students_age
+SELECT ALL students_name, students_age
 FROM Students
 WHERE students_age > 20;
 ```
@@ -278,7 +278,7 @@ WHERE students_age <= 19
 Ambas condiciones deben cumplirse.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 WHERE students_city = 'Manizales'
 AND students_age > 20;
@@ -291,7 +291,7 @@ AND students_age > 20;
 Al menos una condición debe cumplirse.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 WHERE students_city = 'Pereira'
 OR students_city = 'Armenia';
@@ -306,7 +306,7 @@ OR students_city = 'Armenia';
 Orden ascendente.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 ORDER BY students_age ASC;
 ```
@@ -318,7 +318,7 @@ ORDER BY students_age ASC;
 Orden descendente.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 ORDER BY students_age DESC;
 ```
@@ -332,7 +332,7 @@ ORDER BY students_age DESC;
 Permite limitar la cantidad de registros mostrados.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 LIMIT 2;
 ```
@@ -344,7 +344,7 @@ LIMIT 2;
 Los alias permiten cambiar temporalmente el nombre mostrado.
 
 ```sql
-SELECT student_name AS studentName,
+SELECT ALL student_name AS studentName,
        student_city AS studentCity
 FROM Students;
 ```
@@ -356,7 +356,7 @@ FROM Students;
 Ejemplo completo:
 
 ```sql
-SELECT students_name, students_city, students_age
+SELECT ALL students_name, students_city, students_age
 FROM Students
 WHERE students_city = 'Manizales'
 AND students_age >= 20
@@ -372,13 +372,13 @@ ORDER BY students_age DESC;
 Incorrecto:
 
 ```sql
-SELECT * FROM Students
+SELECT ALL * FROM Students
 ```
 
 Correcto:
 
 ```sql
-SELECT * FROM Students;
+SELECT ALL * FROM Students;
 ```
 
 ---
@@ -388,13 +388,13 @@ SELECT * FROM Students;
 Incorrecto:
 
 ```sql
-SELECT student_name FROM Students;
+SELECT ALL student_name FROM Students;
 ```
 
 Correcto:
 
 ```sql
-SELECT students_name FROM Students;
+SELECT ALL students_name FROM Students;
 ```
 
 ---
@@ -446,7 +446,7 @@ Lecciones sugeridas:
 Consultar todos los registros.
 
 ```sql
-SELECT * FROM Students;
+SELECT ALL * FROM Students;
 ```
 
 ---
@@ -456,7 +456,7 @@ SELECT * FROM Students;
 Consultar únicamente nombre y ciudad.
 
 ```sql
-SELECT students_name, students_city
+SELECT ALL students_name, students_city
 FROM Students;
 ```
 
@@ -467,7 +467,7 @@ FROM Students;
 Consultar estudiantes mayores de 20 años.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 WHERE students_age > 20;
 ```
@@ -479,7 +479,7 @@ WHERE students_age > 20;
 Consultar estudiantes de Manizales ordenados por edad.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 WHERE students_city = 'Manizales'
 ORDER BY students_age ASC;
@@ -492,7 +492,7 @@ ORDER BY students_age ASC;
 Mostrar únicamente dos registros.
 
 ```sql
-SELECT *
+SELECT ALL *
 FROM Students
 LIMIT 2;
 ```
