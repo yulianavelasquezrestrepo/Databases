@@ -18,28 +18,21 @@
 
 [7. Entidades y Atributos](/Theory-and-concepts/Entity-Relationalship-Model/entities-and-attributes.md)
 
+[8. Cardinalidad](/Theory-and-concepts/Entity-Relationalship-Model/cardinality.md)
+
+[9. Errores Comunes del Modelo Entidad Relación](/Theory-and-concepts/Entity-Relationalship-Model/er-model-common-mistakes.md)
+
+## Actividades prácticas
+
+- Diseño de diagramas básicos
+
+- Identificación de entidades y relaciones
+
+- Taller de modelado básico
+
 ---
 
 # Sesión 2
----
-
-## Teoría y Conceptos
-
-[1. Primera Forma Normal 1F](/Theory-and-concepts/Normalization/first-normal-form.md)
-
-[2. Segunda Forma Normal 2F](/Theory-and-concepts/Normalization/second-normal-form.md)
-
-[3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
-
-[4. Relaciones entre Entidades](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
-
-[5. Cardinalidad](/Theory-and-concepts/Entity-Relationalship-Model/cardinality.md)
-
-[6. Errores Comunes del Modelo Entidad Relación](/Theory-and-concepts/Entity-Relationalship-Model/er-model-common-mistakes.md)
-
----
-
-# Sesión 3
 ---
 
 ## Teoría y Conceptos
@@ -60,6 +53,37 @@
 
 [8. Transformación de Relaciones Muchos a Muchos](/Theory-and-concepts/ER-to-Relational-Mapping/mapping-many-to-many.md)
 
+## Actividades prácticas
+
+- Transformación de MER a tablas
+
+- Diseño de tablas relacionales
+
+- Identificación de relaciones
+
+---
+
+# Sesión 3
+---
+
+## Teoría y Conceptos
+
+[1. Primera Forma Normal 1F](/Theory-and-concepts/Normalization/first-normal-form.md)
+
+[2. Segunda Forma Normal 2F](/Theory-and-concepts/Normalization/second-normal-form.md)
+
+[3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
+
+[4. Relaciones entre Entidades](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
+
+## Actividades prácticas
+
+- Normalización paso a paso
+
+- Análisis de estructuras incorrectas
+
+- Diseño de tablas optimizadas
+
 ---
 
 # Sesión 4
@@ -71,12 +95,30 @@
 
 [2. Introduccióna DDL en MySQL](/SQL/DDL/Introduction-DDL-MySQL.md)
 
+## Actividades prácticas
+
+- Creación de bases de datos
+
+- Creación de tablas
+
+- Definición de relaciones
+
 # Sesión 5
 ---
 
 ## SQL
 
 [1. Introducción a Consultas SQL y SQLBolt](/SQL/SQL/SQL-and-SQLBolt.md)
+
+## Actividades prácticas
+
+- Inserción de registros
+
+- Actualización de información
+
+- Eliminación de registros
+
+- Consultas básicas
 
 # Sesión 6
 ---
@@ -85,9 +127,25 @@
 
 [1. Relaciones entre tablas y JOINs](/SQL/Relationships-Tables-JOINs/Relationships-between-Tables-and-JOINs.md)
 
+## Actividades prácticas
+
+- Consultas con filtros
+
+- Búsquedas avanzadas
+
+- Ordenamiento de información
+
 # Sesión 7
 ---
 
 ## Funciones Agregadas GROUP BY y HAVING en SQL
 
 [1. Funciones Agregadas GROUP BY y HAVING](/SQL/Aggregate-Functions/Aggregate-Functions-GROUP%20BY-and-HAVING.md)
+
+## Actividades prácticas
+
+- Consultas multitabla
+
+- Relación entre registros
+
+- Construcción de reportes básicos
