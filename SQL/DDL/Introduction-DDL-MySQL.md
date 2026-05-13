@@ -252,14 +252,3 @@ Durante las prácticas:
 * revisar errores antes de continuar,
 * usar nombres claros y consistentes.
 
-## Resumen
-
-En esta sesión se aprendió:
-
-* qué es DDL,
-* cómo crear bases de datos,
-* cómo crear tablas,
-* cómo usar claves primarias,
-* cómo crear relaciones mediante claves foráneas.
-
-Estos conceptos son la base para comenzar a trabajar con consultas SQL.

@@ -528,16 +528,3 @@ Luego realizar:
 - HAVING
 
 ---
-
-# 30. Resumen de la Sesión
-
-En esta sesión aprendimos:
-
-- Qué son las funciones agregadas.
-- Cómo usar COUNT, SUM, AVG, MIN y MAX.
-- Cómo agrupar datos con GROUP BY.
-- Cómo filtrar grupos con HAVING.
-- Diferencias entre WHERE y HAVING.
-- Cómo generar reportes básicos en SQL.
-
-Estas herramientas son esenciales para análisis de datos y reportes empresariales.

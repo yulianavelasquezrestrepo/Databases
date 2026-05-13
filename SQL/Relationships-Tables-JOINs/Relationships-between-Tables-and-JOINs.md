@@ -577,17 +577,3 @@ Sin embargo:
 - Porque representan la misma lógica desde perspectivas opuestas
 
 ---
-
-# Resumen de la sesión
-
-En esta sesión se trabajó:
-
-- Relaciones entre tablas
-- Claves foráneas
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- Filtrado y ordenamiento con JOINs
-- Uso de alias
-- Interpretación de resultados
-- Consultas relacionales

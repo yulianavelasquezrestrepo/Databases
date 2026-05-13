@@ -530,16 +530,3 @@ Explicar en papel:
 - Leer cuidadosamente los errores
 
 ---
-
-# Resumen de la sesión
-
-En esta sesión se trabajó:
-
-- Introducción a SQL
-- Consultas básicas con SELECT
-- Filtrado con WHERE
-- Ordenamiento con ORDER BY
-- Uso de LIMIT
-- Uso de alias
-- Práctica guiada en SQLBolt
-- Interpretación de resultados
