@@ -24,9 +24,9 @@
 
 ## Actividades prácticas
 
-- [1. Actividad Práctica 1](/Workshops/Estructuras-Informacion-Desorganizada.md)
+- [Actividad Práctica 1](/Workshops/Estructuras-Informacion-Desorganizada.md)
 
-- [2. Actividad Práctica 2](/Workshops/Diseño-MER.md)
+- [Actividad Práctica 2](/Workshops/Diseño-MER.md)
 
 ---
 
