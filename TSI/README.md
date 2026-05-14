@@ -24,11 +24,9 @@
 
 ## Actividades prácticas
 
-- Diseño de diagramas básicos
+- [1. Actividad Práctica 1](/Workshops/Estructuras-Informacion-Desorganizada.md)
 
-- Identificación de entidades y relaciones
-
-- Taller de modelado básico
+- [2. Actividad Práctica 2](/Workshops/Diseño-MER.md)
 
 ---
 
