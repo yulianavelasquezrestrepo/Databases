@@ -38,8 +38,8 @@ Ejemplo:
 - Persona — tiene — Pasaporte
 
 Reglas:
-- Una persona tiene un solo pasaporte.
-- Un pasaporte pertenece a una sola persona.
+- Cada persona tiene un solo pasaporte.
+- Cada pasaporte pertenece a una sola persona.
 
 ---
 
@@ -51,8 +51,8 @@ Ejemplo:
 - Departamento — tiene — Empleados
 
 Reglas:
-- Un departamento puede tener muchos empleados.
-- Un empleado pertenece a un solo departamento.
+- Cada departamento puede tener muchos empleados.
+- Cada empleado pertenece a un solo departamento.
 
 ---
 
@@ -64,8 +64,8 @@ Ejemplo:
 - Estudiante — se inscribe en — Curso
 
 Reglas:
-- Un estudiante puede inscribirse en varios cursos.
-- Un curso puede tener varios estudiantes.
+- Cada estudiante puede inscribirse en varios cursos.
+- Cada curso puede tener varios estudiantes.
 
 Este tipo de relación debe resolverse mediante una entidad asociativa.
 
@@ -126,8 +126,8 @@ Relación:
 - Cliente — realiza — Pedido
 
 Cardinalidad:
-- Un cliente puede realizar cero o muchos pedidos (0,N).
-- Un pedido pertenece a un solo cliente (1,1).
+- Cada cliente puede realizar cero o muchos pedidos (0,N).
+- Cada pedido pertenece a un solo cliente (1,1).
 
 ---
 
