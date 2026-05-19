@@ -1,66 +1,62 @@
-# Actividad Práctica 2 – Diseño de Modelo Entidad Relación (MER)
+# Actividad 2 – Modelo Entidad Relación (MER)
 
-## Objetivo
+## Modalidad
 
-Aplicar los conceptos básicos del Modelo Entidad Relación (MER) mediante la identificación de entidades, atributos y relaciones en un caso práctico.
+Trabajo en grupos de 3 estudiantes
+
+---
+
+# Objetivo
+
+Identificar entidades, atributos y relaciones para construir un Modelo Entidad Relación (MER) básico.
 
 ---
 
 # Instrucciones Generales
 
-1. Trabajen en grupos de 3 estudiantes.
+1. Leer cuidadosamente el caso asignado.
 
-2. Lean cuidadosamente el caso asignado.
+2. Identificar las entidades principales.
 
-3. Identifiquen:
+3. Identificar los atributos de cada entidad.
 
-   - Entidades
+4. Identificar las relaciones entre entidades.
 
-   - Atributos
+5. Dibujar el Modelo Entidad Relación (MER).
 
-   - Relaciones
+6. Indicar las cardinalidades básicas entre entidades.
 
-4. Dibujen el Modelo Entidad Relación (MER).
-
-5. Indiquen la cardinalidad de las relaciones.
-
-6. Realicen el diseño en hojas o cuaderno.
-
-7. Al finalizar, un integrante del grupo explicará el modelo realizado.
+7. Realizar el trabajo en hojas o cuaderno.
 
 ---
 
-# Caso 1 – Biblioteca
+# Caso 1 – Sistema de Biblioteca
 
-Una biblioteca necesita almacenar información sobre:
+Una biblioteca necesita organizar la información de:
 
 - Libros
-
-- Autores
 
 - Usuarios
 
 - Préstamos
 
-Un libro puede tener varios autores.
+Cada usuario puede solicitar varios libros.
 
-Un usuario puede realizar varios préstamos.
+Un libro puede ser prestado muchas veces en diferentes fechas.
 
-## El grupo debe:
+## El grupo debe identificar:
 
-1. Identificar las entidades.
+- Entidades
 
-2. Definir atributos para cada entidad.
+- Atributos
 
-3. Identificar las relaciones.
+- Relaciones
 
-4. Dibujar el MER.
-
-5. Definir las cardinalidades.
+- Cardinalidades
 
 ---
 
-# Caso 2 – Clínica Médica
+# Caso 2 – Sistema de Clínica Médica
 
 Una clínica necesita almacenar información sobre:
 
@@ -70,107 +66,129 @@ Una clínica necesita almacenar información sobre:
 
 - Citas
 
-- Especialidades
+Un médico puede atender muchos pacientes.
 
-Un médico pertenece a una especialidad.
+Un paciente puede tener varias citas médicas.
 
-Un paciente puede tener muchas citas.
+Cada cita registra:
 
-## El grupo debe:
+- fecha,
 
-1. Identificar las entidades.
+- hora,
 
-2. Definir atributos para cada entidad.
+- motivo de consulta.
 
-3. Identificar las relaciones.
+## El grupo debe identificar:
 
-4. Dibujar el MER.
+- Entidades
 
-5. Definir las cardinalidades.
+- Atributos
+
+- Relaciones
+
+- Cardinalidades
 
 ---
 
-# Caso 3 – Sistema de Ventas
+# Caso 3 – Sistema de Restaurante
 
-Una tienda necesita almacenar información sobre:
+Un restaurante necesita organizar la información de:
 
 - Clientes
 
-- Productos
+- Pedidos
 
-- Facturas
+- Platos
 
-Un cliente puede tener muchas facturas.
+Un cliente puede realizar varios pedidos.
 
-Una factura puede incluir varios productos.
+Cada pedido puede incluir varios platos.
 
-## El grupo debe:
+El restaurante desea almacenar:
 
-1. Identificar las entidades.
+- fecha del pedido,
 
-2. Definir atributos para cada entidad.
+- cantidad,
 
-3. Identificar las relaciones.
+- valor total.
 
-4. Dibujar el MER.
+## El grupo debe identificar:
 
-5. Definir las cardinalidades.
+- Entidades
 
----
+- Atributos
 
-# Caso 4 – Sistema Académico
+- Relaciones
 
-Una universidad necesita almacenar información sobre:
-
-- Estudiantes
-
-- Cursos
-
-- Profesores
-
-Un profesor puede dictar varios cursos.
-
-Un estudiante puede matricular varios cursos.
-
-## El grupo debe:
-
-1. Identificar las entidades.
-
-2. Definir atributos para cada entidad.
-
-3. Identificar las relaciones.
-
-4. Dibujar el MER.
-
-5. Definir las cardinalidades.
+- Cardinalidades
 
 ---
 
-# Caso 5 – Sistema de Hotel
+# Caso 4 – Sistema de Hotel
 
 Un hotel necesita almacenar información sobre:
 
 - Habitaciones
 
-- Clientes
+- Huéspedes
 
 - Reservas
 
-Un cliente puede realizar varias reservas.
+Un huésped puede realizar varias reservas.
 
-Cada reserva pertenece a una habitación.
+Cada habitación puede ser reservada muchas veces en diferentes fechas.
 
-## El grupo debe:
+Cada reserva registra:
 
-1. Identificar las entidades.
+- fecha de entrada,
 
-2. Definir atributos para cada entidad.
+- fecha de salida,
 
-3. Identificar las relaciones.
+- cantidad de huéspedes.
 
-4. Dibujar el MER.
+## El grupo debe identificar:
 
-5. Definir las cardinalidades.
+- Entidades
+
+- Atributos
+
+- Relaciones
+
+- Cardinalidades
+
+---
+
+# Caso 5 – Sistema de Gimnasio
+
+Un gimnasio necesita organizar la información de:
+
+- Clientes
+
+- Entrenadores
+
+- Clases
+
+Un entrenador puede dirigir varias clases.
+
+Un cliente puede asistir a muchas clases.
+
+Cada clase registra:
+
+- horario,
+
+- duración,
+
+- capacidad máxima.
+
+## El grupo debe identificar:
+
+- Entidades
+
+- Atributos
+
+- Relaciones
+
+- Cardinalidades
 
 ---
 
@@ -178,14 +196,12 @@ Cada reserva pertenece a una habitación.
 
 Cada grupo debe entregar:
 
-- Modelo Entidad Relación (MER)
+- El diagrama MER realizado.
 
-- Entidades identificadas
+- Las entidades identificadas.
 
-- Atributos propuestos
+- Los atributos definidos.
 
-- Relaciones entre entidades
+- Las relaciones entre entidades.
 
-- Cardinalidades
-
----
+- Las cardinalidades básicas.
