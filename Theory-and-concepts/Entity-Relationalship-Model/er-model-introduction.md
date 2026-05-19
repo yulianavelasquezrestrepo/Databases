@@ -70,6 +70,7 @@ Al analizar la información, se pueden identificar conceptos como:
 - Profesor
 
 Cada uno de estos conceptos puede ser representado como una entidad, y entre ellos existen relaciones como:
+
 - Cada estudiante se matricula en un curso,
 - Cada profesor dicta un curso.
 
