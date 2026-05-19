@@ -70,8 +70,8 @@ Al analizar la información, se pueden identificar conceptos como:
 - Profesor
 
 Cada uno de estos conceptos puede ser representado como una entidad, y entre ellos existen relaciones como:
-- un estudiante se matricula en un curso,
-- un profesor dicta un curso.
+- Cada estudiante se matricula en un curso,
+- Cada profesor dicta un curso.
 
 El MER permite representar estas ideas de forma clara antes de crear tablas.
 
