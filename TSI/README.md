@@ -35,21 +35,19 @@
 
 ## Teoría y Conceptos
 
-[1. Introducción al Modelo Relacional](/Theory-and-concepts/Relational-Model/relational-model-introduction.md)
+[1. Introducción al Modelo Relacional]
+[2. Tablas, Filas y Columnas]
 
-[2. Tablas, Filas y Columnas](/Theory-and-concepts/Relational-Model/tables-rows-columns.md)
+[3. Llave Primaria]
 
-[3. Llave Primaria](/Theory-and-concepts/Relational-Model/primary-keys.md)
+[4. Llave Foránea]
+[5. Restricciones de Integridad]
 
-[4. Llave Foránea](/Theory-and-concepts/Relational-Model/foreign-keys.md)
+[6. Transformación de Entidades a Tablas]
 
-[5. Restricciones de Integridad](/Theory-and-concepts/Relational-Model/integrity-constraints.md)
+[7. Transformación de Relaciones a Tablas]
 
-[6. Transformación de Entidades a Tablas](/Theory-and-concepts/ER-to-Relational-Mapping/mapping-entities-to-tables.md)
-
-[7. Transformación de Relaciones a Tablas](/Theory-and-concepts/ER-to-Relational-Mapping/mapping-relationships.md)
-
-[8. Transformación de Relaciones Muchos a Muchos](/Theory-and-concepts/ER-to-Relational-Mapping/mapping-many-to-many.md)
+[8. Transformación de Relaciones Muchos a Muchos]
 
 ## Actividades prácticas
 
@@ -66,13 +64,13 @@
 
 ## Teoría y Conceptos
 
-[1. Primera Forma Normal 1F](/Theory-and-concepts/Normalization/first-normal-form.md)
+[1. Primera Forma Normal 1F]
 
-[2. Segunda Forma Normal 2F](/Theory-and-concepts/Normalization/second-normal-form.md)
+[2. Segunda Forma Normal 2F]
 
-[3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
+[3. Tercera Forma Normal 3F]
 
-[4. Relaciones entre Entidades](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
+[4. Relaciones entre Entidades]
 
 ## Actividades prácticas
 
@@ -89,9 +87,9 @@
 
 ## MySQL y DDL
 
-[1. Conceptos e Instalación](/DBMS/MySQL)
+[1. Conceptos e Instalación]
 
-[2. Introduccióna DDL en MySQL](/SQL/DDL/Introduction-DDL-MySQL.md)
+[2. Introduccióna DDL en MySQL]
 
 ## Actividades prácticas
 
@@ -106,7 +104,7 @@
 
 ## SQL
 
-[1. Introducción a Consultas SQL y SQLBolt](/SQL/SQL/SQL-and-SQLBolt.md)
+[1. Introducción a Consultas SQL y SQLBolt]
 
 ## Actividades prácticas
 
@@ -123,7 +121,7 @@
 
 ## Relación entre Tablas y JOINs
 
-[1. Relaciones entre tablas y JOINs](/SQL/Relationships-Tables-JOINs/Relationships-between-Tables-and-JOINs.md)
+[1. Relaciones entre tablas y JOINs]
 
 ## Actividades prácticas
 
@@ -138,7 +136,7 @@
 
 ## Funciones Agregadas GROUP BY y HAVING en SQL
 
-[1. Funciones Agregadas GROUP BY y HAVING](/SQL/Aggregate-Functions/Aggregate-Functions-GROUP%20BY-and-HAVING.md)
+[1. Funciones Agregadas GROUP BY y HAVING]
 
 ## Actividades prácticas
 
