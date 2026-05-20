@@ -36,11 +36,13 @@
 ## Teoría y Conceptos
 
 [1. Introducción al Modelo Relacional]
+
 [2. Tablas, Filas y Columnas]
 
 [3. Llave Primaria]
 
 [4. Llave Foránea]
+
 [5. Restricciones de Integridad]
 
 [6. Transformación de Entidades a Tablas]
