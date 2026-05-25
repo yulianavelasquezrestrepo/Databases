@@ -35,21 +35,21 @@
 
 ## Teoría y Conceptos
 
-[1. Introducción al Modelo Relacional]
+[1. Introducción al Modelo Relacional](/Theory-and-concepts/Relational-Model/relational-model-introduction.md)
 
-[2. Tablas, Filas y Columnas]
+[2. Tablas, Filas y Columnas](/Theory-and-concepts/Relational-Model/tables-rows-columns.md)
 
-[3. Llave Primaria]
+[3. Llave Primaria](/Theory-and-concepts/Relational-Model/primary-keys.md)
 
-[4. Llave Foránea]
+[4. Llave Foránea](/Theory-and-concepts/Relational-Model/foreign-keys.md)
 
-[5. Restricciones de Integridad]
+[5. Restricciones de Integridad](/Theory-and-concepts/Relational-Model/integrity-constraints.md)
 
-[6. Transformación de Entidades a Tablas]
+[6. Transformación de Entidades a Tablas](/Theory-and-concepts/ER-to-Relational-Mapping/mapping-entities-to-tables.md)
 
-[7. Transformación de Relaciones a Tablas]
+[7. Transformación de Relaciones a Tablas](/Theory-and-concepts/ER-to-Relational-Mapping/mapping-relationships.md)
 
-[8. Transformación de Relaciones Muchos a Muchos]
+[8. Transformación de Relaciones Muchos a Muchos](/Theory-and-concepts/ER-to-Relational-Mapping/mapping-many-to-many.md)
 
 ## Actividades prácticas
 
