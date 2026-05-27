@@ -53,7 +53,7 @@
 
 ## Actividades prácticas
 
-- [Actividad Práctica 1](/Workshops/Modelo-Relacional.md)
+- [Actividad Práctica 3](/Workshops/Modelo-Relacional.md)
 
 ---
 
