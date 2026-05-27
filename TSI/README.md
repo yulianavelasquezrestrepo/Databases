@@ -53,11 +53,7 @@
 
 ## Actividades prácticas
 
-- Transformación de MER a tablas
-
-- Diseño de tablas relacionales
-
-- Identificación de relaciones
+- [Actividad Práctica 1](/Workshops/Modelo-Relacional.md)
 
 ---
 
