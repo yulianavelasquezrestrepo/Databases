@@ -22,11 +22,11 @@ con el fin de mejorar la organización, integridad y consistencia de la informac
 
 ---
 
-Ejercicio 1: Sistema de Gestión de Taller Mecánico
+# Ejercicio 1: Sistema de Gestión de Taller Mecánico
 
 Una empresa de mantenimiento automotriz necesita desarrollar una base de datos para controlar la información de sus operaciones.
 
-Requerimientos
+# Requerimientos
 
 * Cada cliente puede registrar varios vehículos.
 * Cada vehículo pertenece únicamente a un cliente.
@@ -38,33 +38,33 @@ Requerimientos
 * Se desea almacenar información de repuestos utilizados en cada orden.
 * Un repuesto puede utilizarse en múltiples órdenes.
 
-Actividades
+# Actividades
 
-1. Realizar el MER (Modelo Entidad Relación).
-2. Definir la cardinalidad de todas las relaciones.
-3. Transformar el MER al modelo relacional.
-4. Normalizar el modelo relacional hasta 3FN.
+1. Crear el MER.
+2. Establecer las cardinalidades.
+3. Convertir el MER en modelo relacional.
+4. Aplicar normalización hasta 3FN.
 
 Problemas de normalización intencionales
 
-El sistema actual guarda información así:
+# El sistema actual guarda información así:
 
 Orden	Fecha	Cliente	Teléfono Cliente	Vehículo	Mecánico1	Mecánico2	Servicio1	Servicio2	Repuesto1	Repuesto2
 
-Los estudiantes deben identificar:
+# El grupo debe identificar:
 
 * Dependencias parciales.
 * Grupos repetitivos.
 * Dependencias transitivas.
 * Problemas de redundancia y actualización.
 
-⸻
+---
 
-Ejercicio 2: Sistema de Gestión de Eventos Empresariales
+# Ejercicio 2: Sistema de Gestión de Eventos Empresariales
 
 Una empresa organiza eventos corporativos para distintas compañías.
 
-Requerimientos
+# Requerimientos
 
 * Cada empresa cliente puede contratar múltiples eventos.
 * Cada evento se realiza en un único salón.
@@ -75,33 +75,33 @@ Requerimientos
 * Los empleados coordinadores gestionan eventos específicos.
 * Un evento puede tener varios coordinadores.
 
-Actividades
+# Actividades
 
-1. Diseñar el MER.
-2. Identificar cardinalidades.
-3. Construir el modelo relacional.
+1. Crear el MER.
+2. Establecer las cardinalidades.
+3. Convertir el MER en modelo relacional.
 4. Aplicar normalización hasta 3FN.
 
 Problemas de normalización intencionales
 
-La empresa almacena los datos así:
+# La empresa almacena los datos así:
 
 Evento	Empresa	Teléfono Empresa	Salón	Dirección Salón	Proveedor1	Servicio1	Proveedor2	Servicio2	Coordinador1	Coordinador2
 
-Los estudiantes deben:
+# El grupo debe identificar:
 
 * Eliminar atributos multivaluados.
 * Resolver redundancia de datos.
 * Separar dependencias transitivas.
 * Llevar el esquema a 1FN, 2FN y 3FN.
 
-⸻
+---
 
-Ejercicio 3: Sistema de Gestión de Cultivos Agrícolas
+# Ejercicio 3: Sistema de Gestión de Cultivos Agrícolas
 
 Una cooperativa agrícola desea administrar la información de sus cultivos y productores.
 
-Requerimientos
+# Requerimientos
 
 * Cada productor puede tener varias fincas.
 * Cada finca puede sembrar distintos cultivos.
@@ -111,7 +111,7 @@ Requerimientos
 * Los trabajadores realizan labores en distintas fincas.
 * Cada labor tiene fecha, duración y descripción.
 
-Actividades
+# Actividades
 
 1. Crear el MER.
 2. Establecer las cardinalidades.
@@ -120,24 +120,24 @@ Actividades
 
 Problemas de normalización intencionales
 
-La cooperativa guarda la información así:
+# La cooperativa guarda la información así:
 
 Productor	Finca	Cultivo1	Cultivo2	Insumo1	Insumo2	Trabajador1	Trabajador2	Labor	Fecha
 
-Los estudiantes deben identificar:
+# El grupo debe identificar:
 
 * Repetición de datos.
 * Dependencias parciales.
 * Dependencias transitivas.
 * Problemas derivados de atributos múltiples.
 
-⸻
+---
 
-Ejercicio 4: Sistema de Gestión de Agencia de Viajes
+# Ejercicio 4: Sistema de Gestión de Agencia de Viajes
 
 Una agencia de viajes necesita controlar paquetes turísticos y reservas.
 
-Requerimientos
+# Requerimientos
 
 * Cada cliente puede reservar múltiples paquetes turísticos.
 * Cada paquete incluye diferentes destinos.
@@ -147,33 +147,33 @@ Requerimientos
 * Los transportes son asignados a los paquetes turísticos.
 * Cada transporte tiene conductor asignado.
 
-Actividades
+# Actividades
 
-1. Diseñar el MER.
-2. Definir cardinalidades.
-3. Crear el modelo relacional.
-4. Normalizar hasta 3FN.
+1. Crear el MER.
+2. Establecer las cardinalidades.
+3. Convertir el MER en modelo relacional.
+4. Aplicar normalización hasta 3FN.
 
 Problemas de normalización intencionales
 
-La información se registra así:
+# La información se registra así:
 
 Reserva	Cliente	Teléfono Cliente	Paquete	Destino1	Destino2	Guía1	Guía2	Transporte	Conductor
 
-Los estudiantes deben:
+# El grupo debe identificar:
 
 * Resolver grupos repetitivos.
 * Detectar dependencias transitivas.
 * Eliminar redundancias.
 * Aplicar correctamente 1FN, 2FN y 3FN.
 
-⸻
+---
 
-Ejercicio 5: Sistema de Gestión de Producción Audiovisual
+# Ejercicio 5: Sistema de Gestión de Producción Audiovisual
 
 Una productora audiovisual requiere administrar sus proyectos.
 
-Requerimientos
+# Requerimientos
 
 * Cada proyecto audiovisual tiene varios empleados.
 * Un empleado puede participar en muchos proyectos.
@@ -184,20 +184,20 @@ Requerimientos
 * Cada proyecto maneja múltiples locaciones.
 * Las locaciones pueden utilizarse en diferentes proyectos.
 
-Actividades
+# Actividades
 
-1. Construir el MER.
-2. Definir las cardinalidades.
-3. Elaborar el modelo relacional.
+1. Crear el MER.
+2. Establecer las cardinalidades.
+3. Convertir el MER en modelo relacional.
 4. Aplicar normalización hasta 3FN.
 
 Problemas de normalización intencionales
 
-Actualmente la productora almacena los datos así:
+# Actualmente la productora almacena los datos así:
 
 Proyecto	Cliente	Teléfono Cliente	Empleado1	Empleado2	Equipo1	Equipo2	Locación1	Locación2
 
-Los estudiantes deben:
+# El grupo debe identificar:
 
 * Detectar anomalías de inserción, actualización y eliminación.
 * Resolver atributos repetitivos.
