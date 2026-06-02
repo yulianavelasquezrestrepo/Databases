@@ -68,7 +68,7 @@
 
 [3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
 
-[4. Relaciones entre Entidades](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
+[4. Tipos de datos en diferentes DBMS](/Theory-and-concepts/Normalization/Data-Types.md)
 
 ## Actividades prácticas
 
