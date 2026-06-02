@@ -74,7 +74,7 @@
 
 - MER, Cardinalidad, Modelo Relacional y Normalización
 
-- Normalización paso a paso
+- Normalización completa
 
 ---
 
