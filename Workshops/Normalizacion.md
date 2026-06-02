@@ -2,7 +2,7 @@
 
 # Ampliación y Normalización del Modelo Relacional
 
-⸻
+---
 
 # Objetivo
 
@@ -14,7 +14,7 @@ El objetivo de esta actividad es que los estudiantes fortalezcan sus conocimient
 * Proceso de normalización.
 * Aplicación de la Primera, Segunda y Tercera Forma Normal.
 
-⸻
+---
 
 # Instrucciones Generales
 
@@ -33,7 +33,7 @@ Basados en los modelos relacionales construidos en la Actividad Práctica 3, deb
     * Tercera Forma Normal (3FN).
 5. Mostrar el modelo relacional final normalizado.
 
-⸻
+---
 
 # Caso 1 — Sistema de Biblioteca
 
@@ -45,7 +45,7 @@ Tablas existentes:
 * Libro
 * Prestamo
 
-⸻
+---
 
 # Actividad
 
@@ -56,7 +56,7 @@ Agregar las siguientes 4 tablas:
 * Multa
 * Biblioteca
 
-⸻
+---
 
 # Requerimientos
 
@@ -67,7 +67,7 @@ Agregar las siguientes 4 tablas:
 * Un Prestamo puede generar una Multa.
 * Una Biblioteca almacena muchos Libros.
 
-⸻
+---
 
 # Deben realizar
 
@@ -80,7 +80,7 @@ Definir:
 * FK,
 * relaciones.
 
-⸻
+---
 
 2. Normalización
 
@@ -99,7 +99,7 @@ Tercera Forma Normal (3FN)
 
 * Eliminar dependencias transitivas.
 
-⸻
+---
 
 # Caso 2 — Sistema de Clínica Médica
 
@@ -111,7 +111,7 @@ Tablas existentes:
 * Medico
 * Cita
 
-⸻
+---
 
 # Actividad
 
@@ -122,7 +122,7 @@ Agregar las siguientes 4 tablas:
 * Factura
 * Medicamento
 
-⸻
+---
 
 # Requerimientos
 
@@ -133,7 +133,7 @@ Agregar las siguientes 4 tablas:
 * Una Cita genera una Factura.
 * Un Paciente puede recibir Medicamentos.
 
-⸻
+---
 
 # Deben realizar
 
@@ -146,7 +146,7 @@ Definir:
 * FK,
 * relaciones.
 
-⸻
+---
 
 2. Normalización
 
@@ -165,7 +165,7 @@ Tercera Forma Normal (3FN)
 
 * Eliminar dependencias transitivas.
 
-⸻
+---
 
 # Caso 3 — Sistema de Restaurante
 
@@ -177,7 +177,7 @@ Tablas existentes:
 * Pedido
 * Plato
 
-⸻
+---
 
 # Actividad
 
@@ -188,7 +188,7 @@ Agregar las siguientes 4 tablas:
 * CategoriaPlato
 * MetodoPago
 
-⸻
+---
 
 # Requerimientos
 
@@ -199,7 +199,7 @@ Agregar las siguientes 4 tablas:
 * Un Plato pertenece a una CategoriaPlato.
 * Una Factura utiliza un MetodoPago.
 
-⸻
+---
 
 # Deben realizar
 
@@ -212,7 +212,7 @@ Definir:
 * FK,
 * relaciones.
 
-⸻
+---
 
 2. Normalización
 
@@ -230,7 +230,7 @@ Tercera Forma Normal (3FN)
 
 * Eliminar dependencias transitivas.
 
-⸻
+---
 
 # Caso 4 — Sistema de Hotel
 
@@ -242,7 +242,7 @@ Tablas existentes:
 * Habitacion
 * Reserva
 
-⸻
+---
 
 # Actividad
 
@@ -253,7 +253,7 @@ Agregar las siguientes 4 tablas:
 * TipoHabitacion
 * Servicio
 
-⸻
+---
 
 # Requerimientos
 
@@ -264,7 +264,7 @@ Agregar las siguientes 4 tablas:
 * Una Habitacion pertenece a un TipoHabitacion.
 * Una Reserva puede incluir Servicios.
 
-⸻
+---
 
 # Deben realizar
 
@@ -277,7 +277,7 @@ Definir:
 * FK,
 * relaciones.
 
-⸻
+---
 
 2. Normalización
 
@@ -295,7 +295,7 @@ Tercera Forma Normal (3FN)
 
 * Eliminar dependencias transitivas.
 
-⸻
+---
 
 # Caso 5 — Sistema de Gimnasio
 
@@ -307,7 +307,7 @@ Tablas existentes:
 * Entrenador
 * Clase
 
-⸻
+---
 
 # Actividad
 
@@ -318,7 +318,7 @@ Agregar las siguientes 4 tablas:
 * Sala
 * Pago
 
-⸻
+---
 
 # Requerimientos
 
@@ -329,7 +329,7 @@ Agregar las siguientes 4 tablas:
 * Una Clase se dicta en una Sala.
 * Un Cliente realiza Pagos.
 
-⸻
+---
 
 # Deben realizar
 
@@ -342,7 +342,7 @@ Definir:
 * FK,
 * relaciones.
 
-⸻
+---
 
 2. Normalización
 
@@ -360,7 +360,7 @@ Tercera Forma Normal (3FN)
 
 * Eliminar dependencias transitivas.
 
-⸻
+---
 
 # Entregables
 
@@ -376,7 +376,7 @@ Cada grupo debe entregar:
     * 3FN.
 6. Modelo final normalizado.
 
-⸻
+---
 
 # Recomendaciones
 
