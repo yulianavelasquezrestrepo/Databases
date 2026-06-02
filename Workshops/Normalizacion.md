@@ -1,305 +1,387 @@
 # Actividad Práctica 5
-# Expansión y Normalización del Modelo Relacional
 
-## Integrantes
+# Ampliación y Normalización del Modelo Relacional
 
-Grupo de 3 estudiantes
-
----
+⸻
 
 # Objetivo
 
-Ampliar un modelo relacional existente agregando nuevas tablas y aplicar correctamente:
+El objetivo de esta actividad es que los estudiantes fortalezcan sus conocimientos en:
 
-- Primera Forma Normal (1FN)
-- Segunda Forma Normal (2FN)
-- Tercera Forma Normal (3FN)
+* Diseño de bases de datos relacionales.
+* Ampliación de modelos relacionales existentes.
+* Aplicación de relaciones entre tablas.
+* Proceso de normalización.
+* Aplicación de la Primera, Segunda y Tercera Forma Normal.
 
-con el fin de mejorar la organización, integridad y consistencia de la información.
-
----
+⸻
 
 # Instrucciones Generales
 
-Cada grupo debe trabajar sobre el modelo relacional construido en la Actividad Práctica 3.
+Basados en los modelos relacionales construidos en la Actividad Práctica 3, deberán:
 
-A partir de dicho modelo, deberán:
+1. Agregar 4 nuevas tablas al modelo relacional asignado.
+2. Definir:
+    * atributos,
+    * claves primarias,
+    * claves foráneas,
+    * relaciones entre tablas.
+3. Explicar cómo se relacionan las nuevas tablas con el modelo original.
+4. Aplicar correctamente:
+    * Primera Forma Normal (1FN),
+    * Segunda Forma Normal (2FN),
+    * Tercera Forma Normal (3FN).
+5. Mostrar el modelo relacional final normalizado.
 
-1. Agregar 4 nuevas tablas relacionadas con el contexto del sistema.
-2. Identificar posibles problemas de redundancia o dependencias.
-3. Aplicar las formas normales necesarias.
-4. Presentar el modelo relacional final normalizado.
+⸻
 
----
+# Caso 1 — Sistema de Biblioteca
+
+# Modelo Base
+
+Tablas existentes:
+
+* Usuario
+* Libro
+* Prestamo
+
+⸻
+
+# Actividad
+
+Agregar las siguientes 4 tablas:
+
+* Autor
+* Categoria
+* Multa
+* Biblioteca
+
+⸻
 
 # Requerimientos
 
-El grupo debe:
+# Relaciones sugeridas
 
-1. Diseñar 4 tablas nuevas relacionadas con el caso asignado.
-2. Definir atributos para cada tabla.
-3. Identificar PK y FK.
-4. Aplicar correctamente:
-   - 1FN
-   - 2FN
-   - 3FN
-5. Explicar los cambios realizados durante el proceso de normalización.
-6. Entregar el modelo relacional final normalizado.
+* Un Libro pertenece a una Categoria.
+* Un Libro puede tener uno o varios Autores.
+* Un Prestamo puede generar una Multa.
+* Una Biblioteca almacena muchos Libros.
 
----
+⸻
 
-# Reglas importantes
+# Deben realizar
 
-- Todas las tablas deben tener clave primaria.
-- Las relaciones deben representarse mediante claves foráneas.
-- No deben existir atributos multivaluados.
-- No deben existir dependencias parciales.
-- No deben existir dependencias transitivas.
-- No se requiere implementar SQL todavía.
+1. Diseño relacional
 
----
+Definir:
 
-# Entregable
+* atributos,
+* PK,
+* FK,
+* relaciones.
 
-El grupo debe entregar:
+⸻
 
-- Modelo relacional ampliado.
-- Explicación de las nuevas tablas.
-- Aplicación de 1FN, 2FN y 3FN.
-- Modelo final normalizado.
-- Conclusiones del ejercicio.
+2. Normalización
 
----
+# Aplicar:
 
-# Grupo 1 — Sistema de Biblioteca
+Primera Forma Normal (1FN)
 
-## Modelo Relacional Base
+* Eliminar atributos multivaluados.
+* Garantizar atomicidad.
 
-Tablas existentes:
+Segunda Forma Normal (2FN)
 
-- Libro
-- Usuario
-- Prestamo
+* Eliminar dependencias parciales.
 
----
+Tercera Forma Normal (3FN)
 
-# Nuevas Tablas Obligatorias
+* Eliminar dependencias transitivas.
 
-Agregar las siguientes tablas:
+⸻
 
-1. Autor
-2. Categoria
-3. Editorial
-4. Multa
+# Caso 2 — Sistema de Clínica Médica
 
----
-
-# Requerimientos del Grupo
-
-El grupo debe:
-
-- Relacionar libros con autores.
-- Clasificar libros por categorías.
-- Asociar libros con editoriales.
-- Registrar multas por retrasos.
-
----
-
-# Aspectos de Normalización Esperados
-
-El grupo debe evitar:
-
-- repetir datos de editoriales en múltiples libros,
-- repetir datos de autores,
-- almacenar múltiples categorías en un mismo atributo,
-- redundancia en multas y préstamos.
-
----
-
-# Grupo 2 — Sistema de Clínica Médica
-
-## Modelo Relacional Base
+# Modelo Base
 
 Tablas existentes:
 
-- Paciente
-- Medico
-- Cita
+* Paciente
+* Medico
+* Cita
 
----
+⸻
 
-# Nuevas Tablas Obligatorias
+# Actividad
 
-Agregar las siguientes tablas:
+Agregar las siguientes 4 tablas:
 
-1. Especialidad
-2. Consultorio
-3. Factura
-4. Medicamento
+* Especialidad
+* Consultorio
+* Factura
+* Medicamento
 
----
+⸻
 
-# Requerimientos del Grupo
+# Requerimientos
 
-El grupo debe:
+# Relaciones sugeridas
 
-- asociar médicos con especialidades,
-- registrar consultorios,
-- generar facturas por citas,
-- relacionar medicamentos con pacientes o citas.
+* Un Médico pertenece a una Especialidad.
+* Una Cita se realiza en un Consultorio.
+* Una Cita genera una Factura.
+* Un Paciente puede recibir Medicamentos.
 
----
+⸻
 
-# Aspectos de Normalización Esperados
+# Deben realizar
 
-El grupo debe evitar:
+1. Diseño relacional
 
-- repetir información de especialidades,
-- almacenar múltiples medicamentos en un solo campo,
-- redundancia de datos de facturación,
-- dependencias transitivas entre médicos y consultorios.
+Definir:
 
----
+* atributos,
+* PK,
+* FK,
+* relaciones.
 
-# Grupo 3 — Sistema de Restaurante
+⸻
 
-## Modelo Relacional Base
+2. Normalización
 
-Tablas existentes:
+Aplicar:
 
-- Cliente
-- Pedido
-- Plato
+Primera Forma Normal (1FN)
 
----
+* Evitar datos repetidos.
+* Garantizar campos atómicos.
 
-# Nuevas Tablas Obligatorias
+Segunda Forma Normal (2FN)
 
-Agregar las siguientes tablas:
+* Eliminar dependencias parciales.
 
-1. Categoria_Plato
-2. Mesero
-3. Factura
-4. Ingrediente
+Tercera Forma Normal (3FN)
 
----
+* Eliminar dependencias transitivas.
 
-# Requerimientos del Grupo
+⸻
 
-El grupo debe:
+# Caso 3 — Sistema de Restaurante
 
-- clasificar platos,
-- registrar meseros,
-- asociar facturas a pedidos,
-- relacionar ingredientes con platos.
-
----
-
-# Aspectos de Normalización Esperados
-
-El grupo debe evitar:
-
-- listas de ingredientes en un solo atributo,
-- repetición de categorías,
-- duplicación de datos de facturación,
-- redundancia de información de meseros.
-
----
-
-# Grupo 4 — Sistema de Hotel
-
-## Modelo Relacional Base
+# Modelo Base
 
 Tablas existentes:
 
-- Huesped
-- Habitacion
-- Reserva
+* Cliente
+* Pedido
+* Plato
 
----
+⸻
 
-# Nuevas Tablas Obligatorias
+# Actividad
 
-Agregar las siguientes tablas:
+Agregar las siguientes 4 tablas:
 
-1. Tipo_Habitacion
-2. Pago
-3. Empleado
-4. Servicio
+* Factura
+* Mesero
+* CategoriaPlato
+* MetodoPago
 
----
+⸻
 
-# Requerimientos del Grupo
+# Requerimientos
 
-El grupo debe:
+# Relaciones sugeridas
 
-- clasificar habitaciones,
-- registrar pagos,
-- administrar empleados,
-- gestionar servicios del hotel.
+* Un Pedido genera una Factura.
+* Un Mesero atiende muchos Pedidos.
+* Un Plato pertenece a una CategoriaPlato.
+* Una Factura utiliza un MetodoPago.
 
----
+⸻
 
-# Aspectos de Normalización Esperados
+# Deben realizar
 
-El grupo debe evitar:
+1. Diseño relacional
 
-- repetir tipos de habitación,
-- redundancia en pagos,
-- múltiples servicios en un solo campo,
-- dependencias transitivas relacionadas con empleados.
+Definir:
 
----
+* atributos,
+* PK,
+* FK,
+* relaciones.
 
-# Grupo 5 — Sistema de Gimnasio
+⸻
 
-## Modelo Relacional Base
+2. Normalización
+
+Aplicar:
+
+Primera Forma Normal (1FN)
+
+* Eliminar grupos repetitivos.
+
+Segunda Forma Normal (2FN)
+
+* Eliminar dependencias parciales.
+
+Tercera Forma Normal (3FN)
+
+* Eliminar dependencias transitivas.
+
+⸻
+
+# Caso 4 — Sistema de Hotel
+
+# Modelo Base
 
 Tablas existentes:
 
-- Cliente
-- Entrenador
-- Clase
+* Huesped
+* Habitacion
+* Reserva
 
----
+⸻
 
-# Nuevas Tablas Obligatorias
+# Actividad
 
-Agregar las siguientes tablas:
+Agregar las siguientes 4 tablas:
 
-1. Plan
-2. Pago
-3. Sede
-4. Rutina
+* Pago
+* Empleado
+* TipoHabitacion
+* Servicio
 
----
+⸻
 
-# Requerimientos del Grupo
+# Requerimientos
 
-El grupo debe:
+# Relaciones sugeridas
 
-- administrar planes de membresía,
-- registrar pagos,
-- gestionar sedes,
-- asignar rutinas a clientes.
+* Una Reserva genera un Pago.
+* Un Empleado administra Reservas.
+* Una Habitacion pertenece a un TipoHabitacion.
+* Una Reserva puede incluir Servicios.
 
----
+⸻
 
-# Aspectos de Normalización Esperados
+# Deben realizar
 
-El grupo debe evitar:
+1. Diseño relacional
 
-- almacenar varias rutinas en un mismo atributo,
-- repetir datos de planes,
-- redundancia de pagos,
-- dependencias transitivas entre sedes y entrenadores.
+Definir:
 
----
+* atributos,
+* PK,
+* FK,
+* relaciones.
+
+⸻
+
+2. Normalización
+
+Aplicar:
+
+Primera Forma Normal (1FN)
+
+* Eliminar datos multivaluados.
+
+Segunda Forma Normal (2FN)
+
+* Eliminar dependencias parciales.
+
+Tercera Forma Normal (3FN)
+
+* Eliminar dependencias transitivas.
+
+⸻
+
+# Caso 5 — Sistema de Gimnasio
+
+# Modelo Base
+
+Tablas existentes:
+
+* Cliente
+* Entrenador
+* Clase
+
+⸻
+
+# Actividad
+
+Agregar las siguientes 4 tablas:
+
+* Membresia
+* Rutina
+* Sala
+* Pago
+
+⸻
+
+# Requerimientos
+
+# Relaciones sugeridas
+
+* Un Cliente tiene una Membresia.
+* Un Cliente puede tener varias Rutinas.
+* Una Clase se dicta en una Sala.
+* Un Cliente realiza Pagos.
+
+⸻
+
+# Deben realizar
+
+1. Diseño relacional
+
+Definir:
+
+* atributos,
+* PK,
+* FK,
+* relaciones.
+
+⸻
+
+2. Normalización
+
+Aplicar:
+
+Primera Forma Normal (1FN)
+
+* Garantizar atomicidad.
+
+Segunda Forma Normal (2FN)
+
+* Eliminar dependencias parciales.
+
+Tercera Forma Normal (3FN)
+
+* Eliminar dependencias transitivas.
+
+⸻
+
+# Entregables
+
+Cada grupo debe entregar:
+
+1. Modelo Entidad Relación ampliado.
+2. Modelo relacional ampliado.
+3. Explicación de relaciones.
+4. Identificación de PK y FK.
+5. Aplicación de:
+    * 1FN,
+    * 2FN,
+    * 3FN.
+6. Modelo final normalizado.
+
+⸻
 
 # Recomendaciones
 
-- Revisar cuidadosamente dependencias entre atributos.
-- Verificar redundancias antes de normalizar.
-- Separar información repetitiva en nuevas tablas.
-- Mantener nombres claros y consistentes.
-- Pensar cómo se almacenaría realmente la información en una base de datos relacional.
+* Utilizar nombres claros para tablas y atributos.
+* Identificar correctamente entidades fuertes y débiles.
+* Revisar redundancias.
+* Validar integridad referencial.
+* Mantener consistencia en tipos de datos.
