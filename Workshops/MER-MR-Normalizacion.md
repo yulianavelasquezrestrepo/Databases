@@ -11,12 +11,10 @@ Grupo de 3 estudiantes
 
 Ampliar un modelo entidad relación, un modelo relacional y su respectiva normalización, aplicando:
 
-- Modelo Conceptual
+- Modelo Entidad Relación
 - Cardinalidad
-- Modelo Lógico
-- Primera Forma Normal (1FN)
-- Segunda Forma Normal (2FN)
-- Tercera Forma Normal (3FN)
+- Modelo Relacional
+- Normalizar el modelo relacional
 
 con el fin de mejorar la organización, integridad y consistencia de la información.
 
