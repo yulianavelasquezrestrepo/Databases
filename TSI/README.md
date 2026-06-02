@@ -62,21 +62,19 @@
 
 ## Teoría y Conceptos
 
-[1. Primera Forma Normal 1F]
+[1. Primera Forma Normal 1F](/Theory-and-concepts/Normalization/first-normal-form.md)
 
-[2. Segunda Forma Normal 2F]
+[2. Segunda Forma Normal 2F](/Theory-and-concepts/Normalization/second-normal-form.md)
 
-[3. Tercera Forma Normal 3F]
+[3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
 
-[4. Relaciones entre Entidades]
+[4. Relaciones entre Entidades](/Theory-and-concepts/Entity-Relationalship-Model/relationships.md)
 
 ## Actividades prácticas
 
+- MER, Cardinalidad, Modelo Relacional y Normalización
+
 - Normalización paso a paso
-
-- Análisis de estructuras incorrectas
-
-- Diseño de tablas optimizadas
 
 ---
 
