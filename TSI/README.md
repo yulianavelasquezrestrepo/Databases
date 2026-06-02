@@ -100,7 +100,7 @@
 
 ## SQL
 
-[1. Introducción a Consultas SQL y SQLBolt]
+[1. Introducción a Consultas SQL]
 
 ## Actividades prácticas
 
