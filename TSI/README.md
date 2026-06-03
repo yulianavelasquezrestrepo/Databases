@@ -72,9 +72,9 @@
 
 ## Actividades prácticas
 
-- MER, Cardinalidad, Modelo Relacional y Normalización
+- [Actividad Práctica 4](/Workshops/MER-MR-Normalizacion.md)
 
-- Normalización completa
+- [Actividad Práctica 5](/Workshops/Normalizacion.md)
 
 ---
 
