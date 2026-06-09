@@ -10,7 +10,9 @@ Ejecutar archivos .sql desde Windows y macOS utilizando MySQL.
 
 Crear archivo:
 
-setup.sql 
+```cmd
+setup.sql
+``` 
 
 Contenido:
 
@@ -25,12 +27,14 @@ CREATE TABLE empleados (
     cargo_empleado VARCHAR(100) 
     );  
     
-    INSERT INTO empleados(nombre_empleado, cargo_empleado) VALUES ('Laura Díaz', 'Gerente'), ('Pedro Torres', 'Analista');  
+INSERT INTO empleados(nombre_empleado, cargo_empleado) VALUES ('Laura Díaz', 'Gerente'), ('Pedro Torres', 'Analista');  
     
-    SELECT * FROM empleados;
+SELECT * FROM empleados;
 ```
 
+```cmd
 Guardar el archivo.
+```
 
 ---
 
@@ -70,7 +74,7 @@ SOURCE /Users/usuario/Documents/setup.sql;
 
 ---
 
-# Ejecutar Script Directamente desde la Terminal
+# Ejecutar Script directamente desde la Terminal
 
 ## Windows
 
@@ -94,11 +98,13 @@ Si MySQL no está en el PATH:
 
 ---
 
-# Ejecutar Script desde la Carpeta Actual
+# Ejecutar script desde la carpeta actual
 
 Suponga que:
 
-setup.sql 
+```cmd
+setup.sql
+``` 
 
 está en la carpeta actual.
 

@@ -106,7 +106,7 @@ SELECT * FROM estudiantes;
 
 ---
 
-# Insertar Más Registros
+# Insertar más Registros
 
 ```sql
 INSERT INTO estudiantes(nombre, correo) VALUES ('Ana Gómez', 'ana@correo.com'), ('Carlos Ruiz', 'carlos@correo.com');
