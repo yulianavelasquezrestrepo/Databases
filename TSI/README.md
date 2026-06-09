@@ -83,9 +83,9 @@
 
 ## MySQL y DDL
 
-[1. Conceptos e Instalación]
+[1. Conceptos e Instalación](/DBMS/MySQL)
 
-[2. Introduccióna DDL en MySQL]
+[2. Introduccióna DDL en MySQL](/SQL/DDL/Introduction-DDL-MySQL.md)
 
 ## Actividades prácticas
 
