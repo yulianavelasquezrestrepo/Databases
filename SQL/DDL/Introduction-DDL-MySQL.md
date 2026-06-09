@@ -243,7 +243,65 @@ Elimina una tabla.
 DROP TABLE employees;
 ```
 
-## Recomendaciones para trabajar en clase
+# ALTER TABLE
+
+¿Qué hace?
+
+Modifica la estructura de una tabla existente.
+
+## Ejemplo: Agregar una nueva columna a la tabla
+
+```sql
+ALTER TABLE usuarios 
+ADD telefono VARCHAR(20);
+```
+
+## Ejemplo: Borrar una columna existente en una tabla
+
+```sql
+ALTER TABLE clientes 
+DROP COLUMN telefono;
+```
+
+## Ejemplo: Modificar tamaño o tipo de dato de una columna existente en una tabla
+
+```sql
+ALTER TABLE clientes 
+MODIFY COLUMN nombre VARCHAR(100);
+```
+
+## Ejemplo: Modificar el nombre de una columna existente en una tabla
+
+```sql
+ALTER TABLE clientes 
+RENAME COLUMN correo TO email;
+```
+
+# TRUCATE TABLE
+
+¿Qué hace?
+
+Elimina los todos los datos que tiene una tabla.
+
+## Ejemplo
+
+```sql
+TRUNCATE TABLE usuarios;
+```
+
+# RENAME TABLE
+
+¿Qué hace?
+
+Renombra o cambia el nombre de una tabla.
+
+## Ejemplo
+
+```sql
+RENAME TABLE usuarios TO clientes;
+```
+
+## Recomendaciones para trabajar en DDL
 
 Durante las prácticas:
 
