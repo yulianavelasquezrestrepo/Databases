@@ -42,11 +42,15 @@ Conectarse:
 
 cmd:
 
-mysql -u root -p 
+```cmd
+mysql -u root -p
+``` 
 
 Ejecutar:
 
-SOURCE C:/Users/usuario/Documents/setup.sql; 
+```cmd
+SOURCE C:/Users/usuario/Documents/setup.sql;
+``` 
 
 ---
 
@@ -54,13 +58,15 @@ SOURCE C:/Users/usuario/Documents/setup.sql;
 
 Conectarse:
 
-bash:
-
-/usr/local/mysql/bin/mysql -u root -p 
+```bash
+/usr/local/mysql/bin/mysql -u root -p
+``` 
 
 Ejecutar:
 
+```bash
 SOURCE /Users/usuario/Documents/setup.sql; 
+```
 
 ---
 
@@ -68,21 +74,23 @@ SOURCE /Users/usuario/Documents/setup.sql;
 
 ## Windows
 
-cmd:
-
-mysql -u root -p < C:\Users\usuario\Documents\setup.sql 
+```cmd
+mysql -u root -p < C:\Users\usuario\Documents\setup.sql
+``` 
 
 Si MySQL no está en el PATH:
 
-cmd:
-
-"C:\Program Files\MySQL\MySQL Server 9.0\bin\mysql.exe" -u root -p < C:\Users\usuario\Documents\setup.sql 
+```cmd
+"C:\Program Files\MySQL\MySQL Server 9.0\bin\mysql.exe" -u root -p < C:\Users\usuario\Documents\setup.sql
+``` 
 
 ---
 
 ## macOS
 
-bash /usr/local/mysql/bin/mysql -u root -p < /Users/usuario/Documents/setup.sql 
+```bash 
+/usr/local/mysql/bin/mysql -u root -p < /Users/usuario/Documents/setup.sql
+``` 
 
 ---
 
@@ -98,17 +106,17 @@ está en la carpeta actual.
 
 ## Windows
 
-cmd:
-
-mysql -u root -p < setup.sql 
+```cmd
+mysql -u root -p < setup.sql
+``` 
 
 ---
 
 ## macOS
 
-bash:
-
-/usr/local/mysql/bin/mysql -u root -p < setup.sql 
+```bash
+/usr/local/mysql/bin/mysql -u root -p < setup.sql
+``` 
 
 ---
 
@@ -116,15 +124,15 @@ bash:
 
 Conectarse nuevamente:
 
-cmd:
-
-mysql -u root -p 
+```cmd
+mysql -u root -p
+``` 
 
 o
 
-bash:
-
-/usr/local/mysql/bin/mysql -u root -p 
+```bash
+/usr/local/mysql/bin/mysql -u root -p
+``` 
 
 Consultar:
 

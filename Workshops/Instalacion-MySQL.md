@@ -56,7 +56,9 @@ Incluye:
 
 Presionar:
 
-Execute 
+```cmd
+Execute
+``` 
 
 ---
 
@@ -64,7 +66,9 @@ Execute
 
 Seleccionar:
 
-Standalone MySQL Server 
+```cmd
+Standalone MySQL Server
+``` 
 
 ---
 
@@ -72,7 +76,9 @@ Standalone MySQL Server
 
 Dejar:
 
-3306 
+```cmd
+3306
+``` 
 
 ---
 
@@ -80,11 +86,15 @@ Dejar:
 
 Usuario:
 
-root 
+```cmd
+root
+``` 
 
 Contraseña sugerida:
 
-Admin12345 
+```cmd
+Admin12345
+``` 
 
 ---
 
@@ -92,7 +102,9 @@ Admin12345
 
 Presionar:
 
-Execute Finish 
+```cmd
+Execute Finish
+``` 
 
 ---
 
@@ -100,13 +112,15 @@ Execute Finish
 
 Abrir CMD:
 
-cmd:
-
-mysql --version 
+```cmd
+mysql --version
+``` 
 
 Resultado esperado:
 
-mysql Ver 9.x.x 
+```cmd
+mysql Ver 9.x.x
+``` 
 
 ---
 
@@ -140,7 +154,9 @@ Continue Continue Agree Install
 
 Ejemplo:
 
-Admin12345 
+```bash
+Admin12345
+``` 
 
 ---
 
@@ -154,13 +170,15 @@ Permite iniciar y detener MySQL desde Configuración del Sistema.
 
 Abrir Terminal:
 
-bash:
-
-/usr/local/mysql/bin/mysql --version 
+```bash
+/usr/local/mysql/bin/mysql --version
+``` 
 
 Resultado esperado:
 
-mysql Ver 9.x.x 
+```bash
+mysql Ver 9.x.x
+``` 
 
 ---
 

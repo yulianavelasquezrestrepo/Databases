@@ -18,7 +18,9 @@ mysql -u root -p
 
 ## macOS
 
-bash /usr/local/mysql/bin/mysql -u root -p 
+```bash 
+/usr/local/mysql/bin/mysql -u root -p
+``` 
 
 ---
 
