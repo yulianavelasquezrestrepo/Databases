@@ -252,32 +252,32 @@ Modifica la estructura de una tabla existente.
 ## Ejemplo: Agregar una nueva columna a la tabla
 
 ```sql
-ALTER TABLE usuarios 
-ADD telefono VARCHAR(20);
+ALTER TABLE users 
+ADD telephone_user VARCHAR(20);
 ```
 
 ## Ejemplo: Borrar una columna existente en una tabla
 
 ```sql
-ALTER TABLE clientes 
-DROP COLUMN telefono;
+ALTER TABLE users 
+DROP COLUMN telephone_user;
 ```
 
 ## Ejemplo: Modificar tamaño o tipo de dato de una columna existente en una tabla
 
 ```sql
-ALTER TABLE clientes 
-MODIFY COLUMN nombre VARCHAR(100);
+ALTER TABLE users 
+MODIFY COLUMN name_users VARCHAR(100);
 ```
 
 ## Ejemplo: Modificar el nombre de una columna existente en una tabla
 
 ```sql
-ALTER TABLE clientes 
-RENAME COLUMN correo TO email;
+ALTER TABLE users 
+RENAME COLUMN correo_user TO email_user;
 ```
 
-# TRUCATE TABLE
+# TRUNCATE TABLE
 
 ¿Qué hace?
 
@@ -286,7 +286,7 @@ Elimina los todos los datos que tiene una tabla.
 ## Ejemplo
 
 ```sql
-TRUNCATE TABLE usuarios;
+TRUNCATE TABLE users;
 ```
 
 # RENAME TABLE
@@ -298,7 +298,7 @@ Renombra o cambia el nombre de una tabla.
 ## Ejemplo
 
 ```sql
-RENAME TABLE usuarios TO clientes;
+RENAME TABLE users TO clients;
 ```
 
 ## Recomendaciones para trabajar en DDL
