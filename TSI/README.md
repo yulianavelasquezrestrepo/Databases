@@ -89,11 +89,11 @@
 
 ## Actividades prácticas
 
-- Creación de bases de datos
+- [Instalación de MySQL y Workbench](/Workshops/Instalacion-MySQL.md)
 
-- Creación de tablas
+- [Actividad Práctica 6](/Workshops/Practica-Linea-Comandos.md)
 
-- Definición de relaciones
+- [Actividad Práctica 7](/Workshops/Ejecutar-Scripts-desde-Linea-Comandos.md)
 
 # Sesión 5
 ---
