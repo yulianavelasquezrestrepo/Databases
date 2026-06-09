@@ -172,7 +172,3 @@ Estos problemas están relacionados con la configuración del entorno, no con el
 - Guardar los scripts SQL desarrollados en clase.
 
 ---
-
-## Resumen
-
-MySQL es una herramienta fundamental para llevar a la práctica los conceptos de bases de datos relacionales. Su instalación local permite al estudiante experimentar directamente con la creación de estructuras, aplicar reglas de diseño y ejecutar consultas SQL de manera controlada y formativa.
