@@ -110,8 +110,6 @@
 
 - [Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos](/Workshops/Consultas-DQL.md)
 
-- Consultas básicas
-
 # Sesión 6
 ---
 
