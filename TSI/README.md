@@ -104,11 +104,11 @@
 
 ## Actividades prácticas
 
-- Inserción de registros
+- [Práctica DDL - Creación Base de Datos y Tablas](/Workshops/Creación-DDL.md)
 
-- Actualización de información
+- [Práctica DML - Insert, Update, Delete e Integridad Referencial](/Workshops/Integridad-Referencial.md)
 
-- Eliminación de registros
+- [Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos](/Workshops/Consultas-DQL.md)
 
 - Consultas básicas
 
