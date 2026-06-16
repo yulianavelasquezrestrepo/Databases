@@ -452,11 +452,11 @@ Datos:
 
 |id	|nombre	|edad|salario|ciudad|
 |-----|-----|-----|-----|-------|
-|1	Ana|	    25|	2500|	Bogotá|
-|2	Carlos|	35	|5000	|Medellín|
-|3	Laura	|28	|3500	|Cali|
-|4	Pedro	|45	|8000	|Bogotá|
-|5	María	|30	|4500	|Pereira|
+|1	|Ana|	    25|	2500|	Bogotá|
+|2	|Carlos|	35	|5000	|Medellín|
+|3	|Laura	|28	|3500	|Cali|
+|4	|Pedro	|45	|8000	|Bogotá|
+|5	|María	|30	|4500	|Pereira|
 
 ---
 
