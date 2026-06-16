@@ -460,7 +460,7 @@ Datos:
 
 ---
 
-1. COUNT()
+# 1. COUNT()
 
 # ¿Para qué sirve?
 
@@ -491,7 +491,7 @@ Resultado:
 
 ---
 
-2. GROUP BY
+# 2. GROUP BY
 
 # ¿Para qué sirve?
 
@@ -526,7 +526,7 @@ Resultado:
 
 ---
 
-3. AVG()
+# 3. AVG()
 
 # ¿Para qué sirve?
 
@@ -556,7 +556,7 @@ Resultado:
 
 ⸻
 
-4. MAX()
+# 4. MAX()
 
 # ¿Para qué sirve?
 
@@ -587,7 +587,7 @@ Resultado:
 
 ⸻
 
-5. MIN()
+# 5. MIN()
 
 # ¿Para qué sirve?
 
@@ -614,7 +614,7 @@ Resultado:
 
 ⸻
 
-6. SUM()
+# 6. SUM()
 
 # ¿Para qué sirve?
 
@@ -645,7 +645,7 @@ Resultado:
 
 ⸻
 
-7. LIMIT
+# 7. LIMIT
 
 # ¿Para qué sirve?
 
@@ -680,7 +680,7 @@ Resultado:
 
 ⸻
 
-8. OFFSET
+# 8. OFFSET
 
 # ¿Para qué sirve?
 
@@ -732,7 +732,7 @@ Resultado:
 
 ---
 
-9. BETWEEN
+# 9. BETWEEN
 
 # ¿Para qué sirve?
 
@@ -758,7 +758,7 @@ Incluye:
 
 ---
 
-10. NOT BETWEEN
+# 10. NOT BETWEEN
 
 # ¿Para qué sirve?
 
@@ -782,7 +782,7 @@ Resultado:
 
 ---
 
-11. IN
+# 11. IN
 
 # ¿Para qué sirve?
 
@@ -809,7 +809,7 @@ Resultado:
 
 ---
 
-12. NOT IN
+# 12. NOT IN
 
 # ¿Para qué sirve?
 
@@ -833,7 +833,7 @@ Resultado:
 
 ---
 
-13. LIKE
+# 13. LIKE
 
 ¿Para qué sirve?
 
@@ -895,7 +895,7 @@ WHERE nombre LIKE '%ar%';
 
 ----
 
-14. NOT LIKE
+# 14. NOT LIKE
 
 # ¿Para qué sirve?
 
