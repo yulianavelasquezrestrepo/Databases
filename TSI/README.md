@@ -100,7 +100,7 @@
 
 ## SQL
 
-[1. Introducción a Consultas SQL]
+[1. Introducción a Consultas SQL](/SQL/SQL/SQL-and-SQLBolt.md)
 
 ## Actividades prácticas
 

@@ -1,4 +1,4 @@
-# Introducción a Consultas SQL y SQLBolt
+# Introducción a Consultas SQL
 
 ## Conceptos fundamentales de SQL
 
@@ -412,6 +412,579 @@ Correcto:
 ```sql
 WHERE students_city = 'Manizales'
 ```
+
+---
+# Guía práctica de consultas SQL
+Esta guía explica las funciones y operadores SQL más utilizados para realizar consultas en una base de datos.
+---
+# Tabla de contenido
+1. COUNT()
+2. GROUP BY
+3. AVG()
+4. MAX()
+5. MIN()
+6. SUM()
+7. LIMIT
+8. OFFSET
+9. BETWEEN
+10. NOT BETWEEN
+11. IN
+12. NOT IN
+13. LIKE
+14. NOT LIKE
+
+---
+# Tabla de ejemplo
+
+Trabajaremos con una tabla llamada empleados:
+
+```sql
+CREATE TABLE empleados (
+    id INT,
+    nombre VARCHAR(50),
+    edad INT,
+    salario DECIMAL(10,2),
+    ciudad VARCHAR(50)
+);
+```
+
+Datos:
+
+|id	|nombre	|edad|salario|ciudad|
+|-----|-----|-----|-----|-------|
+|1	Ana|	    25|	2500|	Bogotá|
+|2	Carlos|	35	|5000	|Medellín|
+|3	Laura	|28	|3500	|Cali|
+|4	Pedro	|45	|8000	|Bogotá|
+|5	María	|30	|4500	|Pereira|
+
+---
+
+1. COUNT()
+
+# ¿Para qué sirve?
+
+COUNT permite contar registros.
+
+Se usa cuando la pregunta dice:
+
+* ¿Cuántos?
+* Total de registros
+* Cantidad de elementos
+
+Ejemplo
+
+- Pregunta:
+
+¿Cuántos empleados existen?
+
+```sql
+SELECT COUNT(*) AS cantidad_empleados
+FROM empleados;
+```
+
+Resultado:
+
+|cantidad_empleados|
+|---|
+|5|
+
+---
+
+2. GROUP BY
+
+# ¿Para qué sirve?
+
+Agrupa registros que tienen un mismo valor.
+
+Se usa cuando la pregunta dice:
+
+* Por cada
+* Agrupado por
+* Según
+
+Ejemplo
+
+- Pregunta:
+
+¿Cuántos empleados hay por ciudad?
+
+```sql
+SELECT ciudad, COUNT(*) AS cantidad
+FROM empleados
+GROUP BY ciudad;
+```
+
+Resultado:
+
+|ciudad|	cantidad|
+|----|----|
+|Bogotá|	2|
+|Medellín|	1|
+|Cali|	1|
+|Pereira|	1|
+
+---
+
+3. AVG()
+
+# ¿Para qué sirve?
+
+Calcula el promedio de una columna.
+
+Se usa cuando preguntan:
+
+* Promedio
+* Media
+
+Ejemplo
+
+- Pregunta:
+
+¿Cuál es el salario promedio?
+
+```sql
+SELECT AVG(salario) AS promedio
+FROM empleados;
+```
+
+Resultado:
+
+|promedio|
+|----|
+|4700|
+
+⸻
+
+4. MAX()
+
+# ¿Para qué sirve?
+
+Obtiene el valor más alto.
+
+Se usa cuando preguntan:
+
+* Mayor
+* Máximo
+* Más alto
+
+Ejemplo
+
+- Pregunta:
+
+¿Cuál es el salario más alto?
+
+```sql
+SELECT MAX(salario) AS salario_maximo
+FROM empleados;
+```
+
+Resultado:
+
+|salario_maximo|
+|-----|
+|8000|
+
+⸻
+
+5. MIN()
+
+# ¿Para qué sirve?
+
+Obtiene el valor más pequeño.
+
+Se usa cuando preguntan:
+
+* Menor
+* Mínimo
+* Más bajo
+
+Ejemplo
+
+```sql
+SELECT MIN(salario) AS salario_minimo
+FROM empleados;
+```
+
+Resultado:
+
+|salario_minimo|
+|----|
+|2500|
+
+⸻
+
+6. SUM()
+
+# ¿Para qué sirve?
+
+Suma valores numéricos.
+
+Se usa cuando preguntan:
+
+* Total
+* Suma
+* Acumulado
+
+Ejemplo
+
+Pregunta:
+
+- ¿Cuánto dinero se paga en salarios?
+
+```sql
+SELECT SUM(salario) AS total_salarios
+FROM empleados;
+```
+
+Resultado:
+
+|total_salarios|
+|------|
+|23500|
+
+⸻
+
+7. LIMIT
+
+# ¿Para qué sirve?
+
+Limita la cantidad de registros mostrados.
+
+Se usa cuando preguntan:
+
+* Primeros
+* Top
+* Solo mostrar N registros
+
+Ejemplo
+
+- Pregunta:
+
+Mostrar los 3 empleados con mayor salario.
+
+```sql
+SELECT *
+FROM empleados
+ORDER BY salario DESC
+LIMIT 3;
+```
+
+Resultado:
+
+|nombre|	salario|
+|----|----|
+|Pedro|	8000|
+|Carlos|	5000|
+|María|	4500|
+
+⸻
+
+8. OFFSET
+
+# ¿Para qué sirve?
+
+Permite saltar registros.
+
+Se usa para:
+
+* Paginación
+* Empezar desde cierta posición
+
+Ejemplo
+
+Mostrar registros desde el cuarto empleado:
+
+```sql
+SELECT *
+FROM empleados
+OFFSET 3;
+```
+
+El primer registro tiene posición 0:
+
+Ana     posición 0
+Carlos  posición 1
+Laura   posición 2
+Pedro   posición 3
+
+---
+
+LIMIT + OFFSET
+
+Ejemplo:
+
+Mostrar página 2 con 2 registros por página.
+
+```sql
+SELECT *
+FROM empleados
+LIMIT 2
+OFFSET 2;
+```
+
+Resultado:
+
+|nombre|
+|---|
+|Laura|
+|Pedro|
+
+---
+
+9. BETWEEN
+
+# ¿Para qué sirve?
+
+Busca valores dentro de un rango.
+
+La palabra clave es:
+
+“entre”
+
+Ejemplo
+
+Empleados con edad entre 25 y 35:
+
+```sql
+SELECT *
+FROM empleados
+WHERE edad BETWEEN 25 AND 35;
+```
+
+Incluye:
+
+25 y 35
+
+---
+
+10. NOT BETWEEN
+
+# ¿Para qué sirve?
+
+Busca valores fuera de un rango.
+
+Ejemplo
+
+Empleados con edad que NO esté entre 25 y 35:
+
+```sql
+SELECT *
+FROM empleados
+WHERE edad NOT BETWEEN 25 AND 35;
+```
+
+Resultado:
+
+|nombre|	edad|
+|----|----|
+|Pedro|	45|
+
+---
+
+11. IN
+
+# ¿Para qué sirve?
+
+Busca coincidencias dentro de una lista.
+
+Se usa cuando hay varias opciones.
+
+Ejemplo
+
+Empleados de Bogotá o Cali:
+
+```sql
+SELECT *
+FROM empleados
+WHERE ciudad IN ('Bogotá','Cali');
+```
+
+Resultado:
+
+|---|
+|Ana|
+|Laura|
+|Pedro|
+
+---
+
+12. NOT IN
+
+# ¿Para qué sirve?
+
+Excluye valores de una lista.
+
+Ejemplo
+
+Empleados que no son de Bogotá ni Cali:
+
+```sql
+SELECT *
+FROM empleados
+WHERE ciudad NOT IN ('Bogotá','Cali');
+```
+
+Resultado:
+
+|---|
+|Carlos|
+|María|
+
+---
+
+13. LIKE
+
+¿Para qué sirve?
+
+Busca patrones en textos.
+
+Usa comodines:
+
+Símbolo	Significado
+%	cualquier cantidad de caracteres
+_	un carácter
+
+---
+
+Ejemplo 1
+
+Nombres que empiezan con A:
+
+```sql
+SELECT *
+FROM empleados
+WHERE nombre LIKE 'A%';
+```
+
+Resultado:
+
+|---|
+|Ana|
+
+---
+
+Ejemplo 2
+
+Nombres que terminan en a:
+
+```sql
+SELECT *
+FROM empleados
+WHERE nombre LIKE '%a';
+```
+
+Resultado:
+
+|---|
+|Ana|
+|Laura|
+|María|
+
+---
+
+Ejemplo 3
+
+Nombres que contienen “ar”:
+
+```sql
+SELECT *
+FROM empleados
+WHERE nombre LIKE '%ar%';
+```
+
+----
+
+14. NOT LIKE
+
+# ¿Para qué sirve?
+
+Busca textos que NO cumplen un patrón.
+
+Ejemplo
+
+Nombres que no empiezan con A:
+
+```sql
+SELECT *
+FROM empleados
+WHERE nombre NOT LIKE 'A%';
+```
+
+Resultado:
+
+|---|
+|Carlos|
+|Laura|
+|Pedro|
+|María|
+
+---
+
+Ejemplo completo combinando operadores
+
+- Pregunta:
+
+Mostrar los 3 empleados de Bogotá o Cali,
+con salario entre 3000 y 8000,
+ordenados por salario mayor.
+
+```sql
+SELECT nombre, salario, ciudad
+FROM empleados
+WHERE ciudad IN ('Bogotá','Cali')
+AND salario BETWEEN 3000 AND 8000
+ORDER BY salario DESC
+LIMIT 3;
+```
+
+---
+
+Orden mental para resolver consultas
+
+Primero pensar:
+
+¿Qué me están pidiendo?
+
+|Pregunta|	Usar|
+|----|----|
+|¿Cuántos?|	COUNT|
+|¿Por cada?|	GROUP BY|
+|¿Promedio?	|AVG|
+|¿Mayor?	|MAX|
+|¿Menor?	|MIN|
+|¿Total?	|SUM|
+|¿Primeros?	|LIMIT|
+|¿Saltar?	|OFFSET|
+|¿Entre valores?|	BETWEEN|
+|¿Lista de opciones?|	IN|
+|¿Texto parecido?|	LIKE|
+
+---
+
+Regla rápida:
+
+- COUNT = contar
+
+- GROUP BY = agrupar
+
+- AVG = promedio
+
+- MAX = mayor
+
+- MIN = menor
+
+- SUM = sumar
+
+- LIMIT = cantidad
+
+- OFFSET = saltar
+
+- BETWEEN = rango
+
+- IN = lista
+
+- LIKE = patrón de texto
 
 ---
 
