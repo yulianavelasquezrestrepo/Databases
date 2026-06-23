@@ -108,22 +108,18 @@
 
 - [Práctica DML - Insert, Update, Delete e Integridad Referencial](/Workshops/Integridad-Referencial.md)
 
-- [Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos](/Workshops/Consultas-DQL.md)
+- [Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos university_db](/Workshops/Consultas-DQL.md)
 
 # Sesión 6
 ---
 
 ## Relación entre Tablas y JOINs
 
-[1. Relaciones entre tablas y JOINs]
+[1. Relaciones entre tablas y JOINs](/SQL/Relationships-Tables-JOINs/Relationships-between-Tables-and-JOINs.md)
 
 ## Actividades prácticas
 
-- Consultas con filtros
-
-- Búsquedas avanzadas
-
-- Ordenamiento de información
+- [Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos por cada grupo](/Workshops/Práctica-DQL.md)
 
 # Sesión 7
 ---
