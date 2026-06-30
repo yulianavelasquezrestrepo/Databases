@@ -126,12 +126,4 @@
 
 ## Funciones Agregadas GROUP BY y HAVING en SQL
 
-[1. Funciones Agregadas GROUP BY y HAVING]
-
-## Actividades prácticas
-
-- Consultas multitabla
-
-- Relación entre registros
-
-- Construcción de reportes básicos
+[1. Funciones Agregadas GROUP BY y HAVING](/SQL/Aggregate-Functions/Aggregate-Functions-GROUP%20BY-and-HAVING.md)
