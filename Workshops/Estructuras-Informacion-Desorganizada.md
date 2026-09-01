@@ -249,3 +249,87 @@ El grupo debe entregar:
 | Carlos Vega   | 3091013330 | Pereira  | Premium | Laura Gómez | G018        |
 | Diana Rojas   | 3102024441 | Medellín | Premium | Diana León  | G019        |
 | Diana Rojas   | 3102024441 | Medellín | Básico  | Carlos Ruiz | G020        |
+
+---
+
+# Tabla Grupo 9 — Biblioteca
+
+| Usuario       | Teléfono   | Ciudad   | Libro                | Autor                    | Préstamo |
+|---------------|------------|----------|----------------------|--------------------------|----------|
+| Natalia Pérez | 3005551112 | Bogotá   | Cien años de soledad | Gabriel García Márquez   | B001     |
+| Natalia Pérez | 3005551112 | Bogotá   | El principito        | Antoine de Saint-Exupéry | B002     |
+| Andrés Gómez  | 3016662223 | Medellín | Don Quijote          | Miguel de Cervantes      | B003     |
+| Laura Torres  | 3027773334 | Cali     | Cien años de soledad | Gabriel García Márquez   | B004     |
+| Andrés Gómez  | 3016662223 | Medellin | El principito        | Antoine de Saint-Exupéry | B005     |
+| Carlos Díaz   | 3038884445 | Bogotá   | La Odisea            | Homero                   | B006     |
+| Carlos Díaz   | 3038884445 | Bogota   | Don Quijote          | Miguel de Cervantes      | B007     |
+| Sofía Ruiz    | 3049995556 | Pereira  | El Hobbit            | J. R. R. Tolkien         | B008     |
+| Mateo Castro  | 3051016667 | Cali     | La Odisea            | Homero                   | B009     |
+| Mateo Castro  | 3051016667 | Cali     | El Hobbit            | J. R. R. Tolkien         | B010     |
+| Paula León    | 3062027778 | Medellín | Don Quijote          | Miguel de Cervantes      | B011     |
+| Paula León    | 3062027778 | Medellin | Cien años de soledad | Gabriel García Márquez   | B012     |
+| Felipe Mora   | 3073038889 | Bogotá   | El principito        | Antoine de Saint-Exupéry | B013     |
+| Felipe Mora   | 3073038889 | Bogotá   | La Odisea            | Homero                   | B014     |
+| Lina Gómez    | 3084049990 | Cali     | El Hobbit            | J. R. R. Tolkien         | B015     |
+| Lina Gómez    | 3084049990 | Cali     | Don Quijote          | Miguel de Cervantes      | B016     |
+| Daniel Vega   | 3095051011 | Pereira  | La Odisea            | Homero                   | B017     |
+| Daniel Vega   | 3095051011 | Pereira  | El principito        | Antoine de Saint-Exupéry | B018     |
+| Valeria Ruiz  | 3106062122 | Medellín | El Hobbit            | J. R. R. Tolkien         | B019     |
+| Valeria Ruiz  | 3106062122 | Medellín | Cien años de soledad | Gabriel García Márquez   | B020     |
+
+---
+
+# Tabla Grupo 10 — Taller de Vehículos
+
+| Cliente       | Teléfono   | Ciudad   | Vehículo        | Placa  | Servicio           |
+|---------------|------------|----------|-----------------|--------|--------------------|
+| Carlos Pérez  | 3007771113 | Bogotá   | Mazda 3         | ABC123 | Cambio de aceite   |
+| Carlos Pérez  | 3007771113 | Bogotá   | Mazda 3         | ABC123 | Alineación         |
+| Laura Gómez   | 3018882224 | Medellín | Renault Logan   | DEF456 | Cambio de aceite   |
+| Andrés Torres | 3029993335 | Cali     | Chevrolet Onix  | GHI789 | Revisión de frenos |
+| Laura Gómez   | 3018882224 | Medellin | Renault Logan   | DEF456 | Cambio de batería  |
+| Felipe Díaz   | 3031014446 | Bogotá   | Toyota Corolla  | JKL012 | Cambio de aceite   |
+| Felipe Díaz   | 3031014446 | Bogotá   | Toyota Corolla  | JKL012 | Alineación         |
+| Sofía Ruiz    | 3042025557 | Pereira  | Kia Picanto     | MNO345 | Cambio de batería  |
+| Mateo Castro  | 3053036668 | Cali     | Mazda 2         | PQR678 | Cambio de aceite   |
+| Mateo Castro  | 3053036668 | Cali     | Mazda 2         | PQR678 | Revisión de frenos |
+| Paula León    | 3064047779 | Medellín | Renault Sandero | STU901 | Alineación         |
+| Paula León    | 3064047779 | Medellin | Renault Sandero | STU901 | Cambio de aceite   |
+| Daniel Mora   | 3075058880 | Bogotá   | Chevrolet Spark | VWX234 | Cambio de batería  |
+| Daniel Mora   | 3075058880 | Bogota   | Chevrolet Spark | VWX234 | Cambio de aceite   |
+| Lina Vega     | 3086069991 | Cali     | Kia Rio         | YZA567 | Revisión de frenos |
+| Lina Vega     | 3086069991 | Cali     | Kia Rio         | YZA567 | Alineación         |
+| Nicolás Gil   | 3097071012 | Pereira  | Toyota Yaris    | BCD890 | Cambio de aceite   |
+| Nicolás Gil   | 3097071012 | Pereira  | Toyota Yaris    | BCD890 | Cambio de batería  |
+| Diana Castro  | 3108082123 | Medellín | Mazda CX-5      | EFG123 | Revisión de frenos |
+| Diana Castro  | 3108082123 | Medellín | Mazda CX-5      | EFG123 | Cambio de aceite   |
+
+---
+
+# Tabla Grupo 11 — Agencia de Viajes
+
+| Cliente       | Teléfono   | Ciudad   | Destino    | Hotel         | Paquete           |
+|---------------|------------|----------|------------|---------------|-------------------|
+| Mariana López | 3001114444 | Bogotá   | Cartagena  | Hotel Caribe  | Playa y Sol       |
+| Mariana López | 3001114444 | Bogotá   | Medellín   | Hotel Central | Ciudad y Cultura  |
+| Juan Pérez    | 3012225555 | Medellín | Cartagena  | Hotel Caribe  | Playa y Sol       |
+| Camila Torres | 3023336666 | Cali     | San Andrés | Hotel Coral   | Isla y Playa      |
+| Juan Pérez    | 3012225555 | Medellin | Bogotá     | Hotel Capital | Ciudad y Negocios |
+| Andrés Gómez  | 3034447777 | Bogotá   | Cartagena  | Hotel Caribe  | Playa y Sol       |
+| Andrés Gómez  | 3034447777 | Bogota   | San Andrés | Hotel Coral   | Isla y Playa      |
+| Laura Díaz    | 3045558888 | Pereira  | Medellín   | Hotel Central | Ciudad y Cultura  |
+| Felipe Ruiz   | 3056669999 | Cali     | Cartagena  | Hotel Caribe  | Playa y Sol       |
+| Felipe Ruiz   | 3056669999 | Cali     | Medellín   | Hotel Central | Ciudad y Cultura  |
+| Sofía Castro  | 3067771110 | Medellín | San Andrés | Hotel Coral   | Isla y Playa      |
+| Sofía Castro  | 3067771110 | Medellin | Cartagena  | Hotel Caribe  | Playa y Sol       |
+| Mateo León    | 3078882221 | Bogotá   | Bogotá     | Hotel Capital | Ciudad y Negocios |
+| Mateo León    | 3078882221 | Bogota   | Cartagena  | Hotel Caribe  | Playa y Sol       |
+| Paula Mora    | 3089993332 | Cali     | San Andrés | Hotel Coral   | Isla y Playa      |
+| Paula Mora    | 3089993332 | Cali     | Medellín   | Hotel Central | Ciudad y Cultura  |
+| Carlos Vega   | 3091014443 | Pereira  | Cartagena  | Hotel Caribe  | Playa y Sol       |
+| Carlos Vega   | 3091014443 | Pereira  | Bogotá     | Hotel Capital | Ciudad y Negocios |
+| Diana Gil     | 3102025554 | Medellín | San Andrés | Hotel Coral   | Isla y Playa      |
+| Diana Gil     | 3102025554 | Medellín | Cartagena  | Hotel Caribe  | Playa y Sol       |
+
+---
+
