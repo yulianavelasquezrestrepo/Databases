@@ -2,15 +2,15 @@
 
 Modalidad
 
-Trabajo en grupos de 3 estudiantes
+Trabajo en grupos de 3 o 4 estudiantes
 
-⸻
+---
 
 # Objetivo
 
 Identificar entidades, atributos y relaciones para construir un Modelo Entidad Relación (MER) básico.
 
-⸻
+---
 
 # Instrucciones Generales
 
@@ -22,7 +22,7 @@ Identificar entidades, atributos y relaciones para construir un Modelo Entidad R
 6. Indicar las cardinalidades básicas entre entidades.
 7. Realizar el trabajo en hojas o cuaderno.
 
-⸻
+---
 
 # Caso 1 – Sistema de Biblioteca
 
@@ -43,7 +43,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 2 – Sistema de Clínica Médica
 
@@ -70,7 +70,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 3 – Sistema de Restaurante
 
@@ -97,7 +97,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 4 – Sistema de Hotel
 
@@ -124,7 +124,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 5 – Sistema de Gimnasio
 
@@ -151,7 +151,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 6 – Sistema de Tienda de Ropa
 
@@ -186,7 +186,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 7 – Sistema de Taller de Vehículos
 
@@ -221,7 +221,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 8 – Sistema de Universidad
 
@@ -256,7 +256,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 9 – Sistema de Agencia de Viajes
 
@@ -289,7 +289,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 10 – Sistema de Plataforma de Streaming
 
@@ -322,7 +322,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 # Caso 11 – Sistema de Veterinaria
 
@@ -359,7 +359,7 @@ El grupo debe identificar:
 * Relaciones
 * Cardinalidades
 
-⸻
+---
 
 Entregable
 
