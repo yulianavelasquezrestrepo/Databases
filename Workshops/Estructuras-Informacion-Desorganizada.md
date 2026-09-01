@@ -168,3 +168,84 @@ El grupo debe entregar:
 | Carlos Ruiz | 3095050010 | Pereira | Matrix | Acción | V018 |
 | Diana León | 3106060011 | Medellín | Avatar | Ciencia Ficción | V019 |
 | Diana León | 3106060011 | Medellín | Titanic | Drama | V020 |
+
+---
+
+# Tabla Grupo 6 — Restaurante
+
+| Cliente       | Teléfono   | Ciudad      | Plato        | Precio | Pedido |
+|---------------|------------|-------------|--------------|--------|--------|
+| Natalia Gómez | 3001112221 | Bogotá      | Hamburguesa  | 28000  | R001   |
+| Natalia Gómez | 3001112221 | Bogotá      | Pizza        | 35000  | R002   |
+| Andrés Pérez  | 3012223332 | Medellín    | Pasta        | 32000  | R003   |
+| Laura Torres  | 3023334443 | Cali        | Hamburguesa  | 28000  | R004   |
+| Andrés Pérez  | 3012223332 | Medellin    | Pizza        | 35000  | R005   |
+| Carlos Díaz   | 3034445554 | Bogotá      | Ensalada     | 22000  | R006   |
+| Carlos Díaz   | 3034445554 | Bogota      | Jugo Natural | 12000  | R007   |
+| Sofía Castro  | 3045556665 | Pereira     | Pasta        | 32000  | R008   |
+| Mateo Ruiz    | 3056667776 | Cali        | Pizza        | 35000  | R009   |
+| Mateo Ruiz    | 3056667776 | Cali        | Hamburguesa  | 28000  | R010   |
+| Paula León    | 3067778887 | Medellín    | Ensalada     | 22000  | R011   |
+| Paula León    | 3067778887 | Medellin    | Pasta        | 32000  | R012   |
+| Felipe Mora   | 3078889998 | Bogotá      | Pizza        | 35000  | R013   |
+| Lina Vega     | 3089991119 | Bucaramanga | Hamburguesa  | 28000  | R014   |
+| Lina Vega     | 3089991119 | Bucaramanga | Jugo Natural | 12000  | R015   |
+| Daniel Gil    | 3091012120 | Cali        | Pasta        | 32000  | R016   |
+| Daniel Gil    | 3091012120 | Cali        | Ensalada     | 22000  | R017   |
+| Valeria Rojas | 3102023231 | Pereira     | Pizza        | 35000  | R018   |
+| Valeria Rojas | 3102023231 | Pereira     | Hamburguesa  | 28000  | R019   |
+| Nicolás Silva | 3113034342 | Bogotá      | Jugo Natural | 12000  | R020   |
+
+---
+
+# Tabla Grupo 7 — Hotel
+
+| Huésped      | Teléfono   | Ciudad   | Habitación | Tipo Habitación | Reserva |
+|--------------|------------|----------|------------|-----------------|---------|
+| María López  | 3004441111 | Bogotá   | 101        | Sencilla        | H001    |
+| María López  | 3004441111 | Bogotá   | 102        | Doble           | H002    |
+| Juan Torres  | 3015552222 | Medellín | 201        | Doble           | H003    |
+| Camila Pérez | 3026663333 | Cali     | 301        | Suite           | H004    |
+| Juan Torres  | 3015552222 | Medellin | 202        | Doble           | H005    |
+| Andrés Gómez | 3037774444 | Bogotá   | 103        | Sencilla        | H006    |
+| Andrés Gómez | 3037774444 | Bogotá   | 104        | Sencilla        | H007    |
+| Laura Díaz   | 3048885555 | Pereira  | 302        | Suite           | H008    |
+| Felipe Ruiz  | 3059996666 | Cali     | 203        | Doble           | H009    |
+| Felipe Ruiz  | 3059996666 | Cali     | 204        | Doble           | H010    |
+| Sofía Castro | 3061017777 | Medellín | 105        | Sencilla        | H011    |
+| Sofía Castro | 3061017777 | Medellin | 303        | Suite           | H012    |
+| Mateo León   | 3072028888 | Bogotá   | 205        | Doble           | H013    |
+| Mateo León   | 3072028888 | Bogota   | 106        | Sencilla        | H014    |
+| Paula Mora   | 3083039999 | Cali     | 304        | Suite           | H015    |
+| Paula Mora   | 3083039999 | Cali     | 206        | Doble           | H016    |
+| Carlos Vega  | 3094041010 | Pereira  | 107        | Sencilla        | H017    |
+| Carlos Vega  | 3094041010 | Pereira  | 207        | Doble           | H018    |
+| Diana Gil    | 3105052021 | Medellín | 305        | Suite           | H019    |
+| Diana Gil    | 3105052021 | Medellín | 108        | Sencilla        | H020    |
+
+---
+
+# Tabla Grupo 8 — Gimnasio
+
+| Cliente       | Teléfono   | Ciudad   | Plan    | Entrenador  | Inscripción |
+|---------------|------------|----------|---------|-------------|-------------|
+| Ana Martínez  | 3001113331 | Bogotá   | Básico  | Carlos Ruiz | G001        |
+| Ana Martínez  | 3001113331 | Bogotá   | Premium | Laura Gómez | G002        |
+| Luis Pérez    | 3012224442 | Medellín | Básico  | Carlos Ruiz | G003        |
+| Camila Torres | 3023335553 | Cali     | Premium | Diana León  | G004        |
+| Luis Pérez    | 3012224442 | Medellin | Básico  | Laura Gómez | G005        |
+| Felipe Díaz   | 3034446664 | Bogotá   | Básico  | Carlos Ruiz | G006        |
+| Felipe Díaz   | 3034446664 | Bogotá   | Premium | Diana León  | G007        |
+| Sofía Castro  | 3045557775 | Pereira  | Premium | Laura Gómez | G008        |
+| Mateo Ruiz    | 3056668886 | Cali     | Básico  | Carlos Ruiz | G009        |
+| Mateo Ruiz    | 3056668886 | Cali     | Premium | Diana León  | G010        |
+| Paula Gómez   | 3067779997 | Medellín | Básico  | Laura Gómez | G011        |
+| Paula Gómez   | 3067779997 | Medellin | Premium | Carlos Ruiz | G012        |
+| Andrés León   | 3078881118 | Bogotá   | Premium | Diana León  | G013        |
+| Andrés León   | 3078881118 | Bogota   | Básico  | Carlos Ruiz | G014        |
+| Lina Mora     | 3089992229 | Cali     | Básico  | Laura Gómez | G015        |
+| Lina Mora     | 3089992229 | Cali     | Premium | Diana León  | G016        |
+| Carlos Vega   | 3091013330 | Pereira  | Básico  | Carlos Ruiz | G017        |
+| Carlos Vega   | 3091013330 | Pereira  | Premium | Laura Gómez | G018        |
+| Diana Rojas   | 3102024441 | Medellín | Premium | Diana León  | G019        |
+| Diana Rojas   | 3102024441 | Medellín | Básico  | Carlos Ruiz | G020        |
