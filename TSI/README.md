@@ -28,6 +28,8 @@
 
 - [Actividad Práctica 2](/Workshops/Diseño-MER.md)
 
+- Actividad Práctica 3
+
 ---
 
 # Sesión 2
@@ -53,7 +55,7 @@
 
 ## Actividades prácticas
 
-- Actividad Práctica 3
+- Actividad Práctica
 
 ---
 
