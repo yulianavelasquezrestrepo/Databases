@@ -28,7 +28,7 @@
 
 - [Actividad Práctica 2](/Workshops/Diseño-MER.md)
 
-- Actividad Práctica 3
+- [Actividad Práctica 3](/Workshops/MER-Ampliado.md)
 
 ---
 
