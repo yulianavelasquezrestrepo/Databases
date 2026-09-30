@@ -614,7 +614,7 @@ Durante las prácticas del curso utilizaremos la siguiente configuración:
 
 # Resultado esperado
 
-Al finalizar este procedimiento, el estudiante deberá tener correctamente instalado y configurado:
+Al finalizar este procedimiento, deberá tener correctamente instalado y configurado:
 
 - MySQL Server.
 - MySQL Workbench.
