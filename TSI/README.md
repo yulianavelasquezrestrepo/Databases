@@ -64,19 +64,17 @@
 
 ## Teoría y Conceptos
 
-1. Primera Forma Normal 1F
+[1. Primera Forma Normal 1F](/Theory-and-concepts/Normalization/first-normal-form.md)
 
-2. Segunda Forma Normal 2F
+[2. Segunda Forma Normal 2F](/Theory-and-concepts/Normalization/second-normal-form.md)
 
-3. Tercera Forma Normal 3F
+[3. Tercera Forma Normal 3F](/Theory-and-concepts/Normalization/third-normal-form.md)
 
-4. Tipos de datos en diferentes DBMS
+[4. Tipos de datos en diferentes DBMS](/Theory-and-concepts/Normalization/Data-Types.md)
 
 ## Actividades prácticas
 
 - Actividad Práctica 4
-
-- Actividad Práctica 5
 
 ---
 
