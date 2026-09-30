@@ -93,8 +93,7 @@ Se recomienda utilizar una versión **estable (LTS)**.
 1. Abrir el archivo descargado.
 2. Iniciar el asistente de instalación.
 3. Seleccionar el tipo de instalación:
-   - *Developer Default* o
-   - *Server Only*.
+   - *Developer Default* 
 
 ---
 
