@@ -83,17 +83,17 @@
 
 ## MySQL y DDL
 
-1. Conceptos e Instalación
+[1. Conceptos e Instalación](/DBMS/MySQL)
 
-2. Introduccióna DDL en MySQL
+[2. Introduccióna DDL en MySQL](/SQL/DDL/Introduction-DDL-MySQL.md)
 
 ## Actividades prácticas
 
-- Instalación de MySQL y Workbench
+- [Instalación de MySQL y Workbench](/Workshops/Instalacion-MySQL.md)
 
-- Actividad Práctica 6
+- [Actividad Práctica 6](/Workshops/Practica-Linea-Comandos.md)
 
-- Actividad Práctica 7
+- [Actividad Práctica 7](/Workshops/Ejecutar-Scripts-desde-Linea-Comandos.md)
 
 # Sesión 5
 ---
