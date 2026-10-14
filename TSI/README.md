@@ -100,13 +100,13 @@
 
 ## SQL
 
-1. Introducción a Consultas SQL
+[1. Introducción a Consultas SQL](/SQL/SQL/SQL-and-SQLBolt.md)
 
 ## Actividades prácticas
 
-- Práctica DDL - Creación Base de Datos y Tablas
+- [Práctica DDL - Creación Base de Datos y Tablas](/Workshops/Creación-DDL.md)
 
-- Práctica DML - Insert, Update, Delete e Integridad Referencial
+- [Práctica DML - Insert, Update, Delete e Integridad Referencial](/Workshops/Integridad-Referencial.md)
 
 - Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos university_db
 
