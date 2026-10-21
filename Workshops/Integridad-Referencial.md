@@ -20,7 +20,7 @@ Con la base de datos university_db totalmente vacía, intentaremos hacer inscrib
 USE university_db;
 
 -- Intentando matricular a un estudiante fantasma en una clase inexistente
-INSERT INTO enrollments (id_student_enrollment, id_class_enrollment, id_subject_enrollment, date_enrollment, final_grade_enrollments)
+INSERT INTO enrollments (id_student_enrollment, id_class_enrollment, id_subject_enrollment, date_enrollment, final_grade_enrollment)
 VALUES (1012345678, 202601, 1, '2026-06-15', 4.50);
 
 ```
