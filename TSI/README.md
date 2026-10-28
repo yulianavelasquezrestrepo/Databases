@@ -108,7 +108,7 @@
 
 - [Práctica DML - Insert, Update, Delete e Integridad Referencial](/Workshops/Integridad-Referencial.md)
 
-- Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos university_db
+- [Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos university_db](/Workshops/Consultas-DQL.md)
 
 # Sesión 6
 ---
