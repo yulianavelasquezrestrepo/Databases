@@ -115,11 +115,11 @@
 
 ## Relación entre Tablas y JOINs
 
-1. Relaciones entre tablas y JOINs
+[1. Relaciones entre tablas y JOINs](/SQL/Relationships-Tables-JOINs/Relationships-between-Tables-and-JOINs.md)
 
 ## Actividades prácticas
 
-- Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos por cada grupo
+- [Práctica DQL - Ejecución de Consultas a tablas en la Base de Datos por cada grupo](/Workshops/Práctica-DQL.md)
 
 # Sesión 7
 ---
